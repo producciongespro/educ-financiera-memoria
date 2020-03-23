@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Memoria</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author>GESPRO</author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>gsjan7oegtsv</unique-id>
+    <saved-with-version>27500</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Timer" version="1">Timer</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1024</width>
+        <height>768</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>Splash</first-layout>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Landscape</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">Chrome</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-folder name="Sprites">
+            <object-type name="Tarjeta" sid="721305917964710">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="animacion" sid="967667066319235" type="string" />
+                    <instance-variable name="cliqueable" sid="841101957275074" type="number" />
+                </instance-variables>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="566184770602984" speed="5">
+                        <frame duration="1" hotspotX="0.518519" hotspotY="0.454545" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\tarjeta.png">
+                            <collision-poly>
+                                <point x="0.0222258" y="0.0314165" />
+                                <point x="0.496918" y="0.00653595" />
+                                <point x="0.977774" y="0.0314165" />
+                                <point x="0.996269" y="0.495853" />
+                                <point x="0.977774" y="0.968584" />
+                                <point x="0.496918" y="0.993464" />
+                                <point x="0.0222258" y="0.968584" />
+                                <point x="0.00373134" y="0.495853" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Acreedor" pingpong="0" repeatcount="1" repeatto="0" sid="196822658316582" speed="5">
+                        <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjeta-03.png">
+                            <collision-poly>
+                                <point x="0.0186335" y="0.0252101" />
+                                <point x="0.496894" y="0" />
+                                <point x="0.981366" y="0.0252101" />
+                                <point x="1" y="0.495798" />
+                                <point x="0.981366" y="0.97479" />
+                                <point x="0.496894" y="1" />
+                                <point x="0.0186335" y="0.97479" />
+                                <point x="0" y="0.495798" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Deudor" pingpong="0" repeatcount="1" repeatto="0" sid="947365440641856" speed="5">
+                        <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-01.png">
+                            <collision-poly>
+                                <point x="0.0186335" y="0.0252101" />
+                                <point x="0.496894" y="0" />
+                                <point x="0.981366" y="0.0252101" />
+                                <point x="1" y="0.495798" />
+                                <point x="0.981366" y="0.97479" />
+                                <point x="0.496894" y="1" />
+                                <point x="0.0186335" y="0.97479" />
+                                <point x="0" y="0.495798" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Contrato" pingpong="0" repeatcount="1" repeatto="0" sid="836133171865590" speed="5">
+                        <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-05.png">
+                            <collision-poly>
+                                <point x="0.0186335" y="0.0252101" />
+                                <point x="0.496894" y="0" />
+                                <point x="0.981366" y="0.0252101" />
+                                <point x="1" y="0.495798" />
+                                <point x="0.981366" y="0.97479" />
+                                <point x="0.496894" y="1" />
+                                <point x="0.0186335" y="0.97479" />
+                                <point x="0" y="0.495798" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Cuota" pingpong="0" repeatcount="1" repeatto="0" sid="506668735831468" speed="5">
+                        <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-07.png">
+                            <collision-poly>
+                                <point x="0.0186335" y="0.0252101" />
+                                <point x="0.496894" y="0" />
+                                <point x="0.981366" y="0.0252101" />
+                                <point x="1" y="0.495798" />
+                                <point x="0.981366" y="0.97479" />
+                                <point x="0.496894" y="1" />
+                                <point x="0.0186335" y="0.97479" />
+                                <point x="0" y="0.495798" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Interes" pingpong="0" repeatcount="1" repeatto="0" sid="564344773363616" speed="5">
+                        <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-11.png">
+                            <collision-poly>
+                                <point x="0.0186335" y="0.0252101" />
+                                <point x="0.496894" y="0" />
+                                <point x="0.981366" y="0.0252101" />
+                                <point x="1" y="0.495798" />
+                                <point x="0.981366" y="0.97479" />
+                                <point x="0.496894" y="1" />
+                                <point x="0.0186335" y="0.97479" />
+                                <point x="0" y="0.495798" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Capacidad" pingpong="0" repeatcount="1" repeatto="0" sid="882305054230201" speed="5">
+                        <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-14.png">
+                            <collision-poly>
+                                <point x="0.0186335" y="0.0252101" />
+                                <point x="0.496894" y="0" />
+                                <point x="0.981366" y="0.0252101" />
+                                <point x="1" y="0.495798" />
+                                <point x="0.981366" y="0.97479" />
+                                <point x="0.496894" y="1" />
+                                <point x="0.0186335" y="0.97479" />
+                                <point x="0" y="0.495798" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Colateral" pingpong="0" repeatcount="1" repeatto="0" sid="346970097654652" speed="5">
+                        <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-16.png">
+                            <collision-poly>
+                                <point x="0.0186335" y="0.0252101" />
+                                <point x="0.496894" y="0" />
+                                <point x="0.981366" y="0.0252101" />
+                                <point x="1" y="0.495798" />
+                                <point x="0.981366" y="0.97479" />
+                                <point x="0.496894" y="1" />
+                                <point x="0.0186335" y="0.97479" />
+                                <point x="0" y="0.495798" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Plazo" pingpong="0" repeatcount="1" repeatto="0" sid="201347095093447" speed="5">
+                        <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-09.png">
+                            <collision-poly>
+                                <point x="0.0186335" y="0.0252101" />
+                                <point x="0.496894" y="0" />
+                                <point x="0.981366" y="0.0252101" />
+                                <point x="1" y="0.495798" />
+                                <point x="0.981366" y="0.97479" />
+                                <point x="0.496894" y="1" />
+                                <point x="0.0186335" y="0.97479" />
+                                <point x="0" y="0.495798" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Fiduciaria" pingpong="0" repeatcount="1" repeatto="0" sid="597395753399464" speed="5">
+                        <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-18.png">
+                            <collision-poly>
+                                <point x="0.0186335" y="0.0252101" />
+                                <point x="0.496894" y="0" />
+                                <point x="0.981366" y="0.0252101" />
+                                <point x="1" y="0.495798" />
+                                <point x="0.981366" y="0.97479" />
+                                <point x="0.496894" y="1" />
+                                <point x="0.0186335" y="0.97479" />
+                                <point x="0" y="0.495798" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Prendaria" pingpong="0" repeatcount="1" repeatto="0" sid="980737667970726" speed="5">
+                        <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-20.png">
+                            <collision-poly>
+                                <point x="0.0186335" y="0.0252101" />
+                                <point x="0.496894" y="0" />
+                                <point x="0.981366" y="0.0252101" />
+                                <point x="1" y="0.495798" />
+                                <point x="0.981366" y="0.97479" />
+                                <point x="0.496894" y="1" />
+                                <point x="0.0186335" y="0.97479" />
+                                <point x="0" y="0.495798" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Hipotecaria" pingpong="0" repeatcount="1" repeatto="0" sid="833035238920188" speed="5">
+                        <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-22.png">
+                            <collision-poly>
+                                <point x="0.0186335" y="0.0252101" />
+                                <point x="0.496894" y="0" />
+                                <point x="0.981366" y="0.0252101" />
+                                <point x="1" y="0.495798" />
+                                <point x="0.981366" y="0.97479" />
+                                <point x="0.496894" y="1" />
+                                <point x="0.0186335" y="0.97479" />
+                                <point x="0" y="0.495798" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Condiciones" pingpong="0" repeatcount="1" repeatto="0" sid="584989703871876" speed="5">
+                        <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-24.png">
+                            <collision-poly>
+                                <point x="0.0186335" y="0.0252101" />
+                                <point x="0.496894" y="0" />
+                                <point x="0.981366" y="0.0252101" />
+                                <point x="1" y="0.495798" />
+                                <point x="0.981366" y="0.97479" />
+                                <point x="0.496894" y="1" />
+                                <point x="0.0186335" y="0.97479" />
+                                <point x="0" y="0.495798" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Caracter" pingpong="0" repeatcount="1" repeatto="0" sid="777628668866125" speed="5">
+                        <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-25.png">
+                            <collision-poly>
+                                <point x="0.0186335" y="0.0252101" />
+                                <point x="0.496894" y="0" />
+                                <point x="0.981366" y="0.0252101" />
+                                <point x="1" y="0.495798" />
+                                <point x="0.981366" y="0.97479" />
+                                <point x="0.496894" y="1" />
+                                <point x="0.0186335" y="0.97479" />
+                                <point x="0" y="0.495798" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Capital" pingpong="0" repeatcount="1" repeatto="0" sid="288773345388325" speed="5">
+                        <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-27.png">
+                            <collision-poly>
+                                <point x="0.0186335" y="0.0252101" />
+                                <point x="0.496894" y="0" />
+                                <point x="0.981366" y="0.0252101" />
+                                <point x="1" y="0.495798" />
+                                <point x="0.981366" y="0.97479" />
+                                <point x="0.496894" y="1" />
+                                <point x="0.0186335" y="0.97479" />
+                                <point x="0" y="0.495798" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Historial" pingpong="0" repeatcount="1" repeatto="0" sid="528076070417583" speed="5">
+                        <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-29.png">
+                            <collision-poly>
+                                <point x="0.0186335" y="0.0252101" />
+                                <point x="0.496894" y="0" />
+                                <point x="0.981366" y="0.0252101" />
+                                <point x="1" y="0.495798" />
+                                <point x="0.981366" y="0.97479" />
+                                <point x="0.496894" y="1" />
+                                <point x="0.0186335" y="0.97479" />
+                                <point x="0" y="0.495798" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Textos">
+            <object-type name="txtIntentos" sid="425402052325699">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="txtTiempo" sid="415730193693470">
+                <plugin id="Text" />
+            </object-type>
+        </object-folder>
+        <object-folder name="GUI">
+            <object-type name="fondo" sid="783049390176802">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Inicio" pingpong="0" repeatcount="1" repeatto="0" sid="529890594537958" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\fondo.jpg" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="AcercaDe" pingpong="0" repeatcount="1" repeatto="0" sid="386009873980577" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\fondoAcercaDe.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="spinner" sid="386570351352134">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="24" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="372635180678188" speed="8">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="btnInicio" sid="583209785163384">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="801964805612459" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\Botones\Inicio1.jpg" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="713859751699885" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\Botones\Inicio2.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="btnAcercaDe" sid="987438874593286">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Timer" sid="528454025786493">
+                        <behavior id="Timer" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="973581868168358" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\Botones\AcercaDe1.jpg" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="183639865357966" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\Botones\AcercaDe2.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="ventanaResumen" sid="815358096428321">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="399842444762424" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501618" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\resumenJuego.png">
+                            <collision-poly>
+                                <point x="0.00547445" y="0.00970874" />
+                                <point x="0.994526" y="0.00970874" />
+                                <point x="0.994526" y="0.990291" />
+                                <point x="0.00547445" y="0.990291" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="btnCerrar" sid="551030900840309">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="585031383953131" speed="5">
+                        <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\Botones\btnCerrar.png">
+                            <collision-poly>
+                                <point x="0.129032" y="0.136364" />
+                                <point x="0.494624" y="0.125" />
+                                <point x="0.870968" y="0.136364" />
+                                <point x="0.88172" y="0.5" />
+                                <point x="0.860215" y="0.852273" />
+                                <point x="0.494624" y="0.863636" />
+                                <point x="0.139785" y="0.852273" />
+                                <point x="0.11828" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Sistema">
+            <object-type name="Touch" sid="292149576191688">
+                <plugin id="Touch" />
+            </object-type>
+            <object-type name="Mouse" sid="248498840492242">
+                <plugin id="Mouse" />
+            </object-type>
+            <object-type name="Browser" sid="761263205447299">
+                <plugin id="Browser" />
+            </object-type>
+            <object-type name="Function" sid="124811351331426">
+                <plugin id="Function" />
+            </object-type>
+            <object-type global="1" name="textosPosibles" sid="998573931193222">
+                <plugin id="Arr" />
+            </object-type>
+            <object-type global="1" name="imagenesPosibles" sid="213567818112848">
+                <plugin id="Arr" />
+            </object-type>
+            <object-type global="1" name="tempImagenes" sid="265920519157868">
+                <plugin id="Arr" />
+            </object-type>
+            <object-type global="1" name="tempTextos" sid="787456588608703">
+                <plugin id="Arr" />
+            </object-type>
+        </object-folder>
+    </object-folder>
+    <families>
+        <family name="resumen" plugin-id="Text" sid="148436893552791">
+            <members>
+                <member>txtIntentos</member>
+                <member>txtTiempo</member>
+            </members>
+        </family>
+    </families>
+    <layout-folder>
+        <layout>Principal.xml</layout>
+        <layout>Splash.xml</layout>
+        <layout>AcercaDe.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>ePrincipal.xml</event-sheet>
+        <event-sheet>eSplash.xml</event-sheet>
+        <event-sheet>eAcercaDe.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Touch" uid="0">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Mouse" uid="1" />
+        <global-instance type="Browser" uid="2" />
+        <global-instance type="Function" uid="3" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

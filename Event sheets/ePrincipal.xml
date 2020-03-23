@@ -1,0 +1,664 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>ePrincipal</name>
+    <events>
+        <variable constant="0" name="intentos" sid="176477619681013" static="0" type="number">0</variable>
+        <variable constant="0" name="cronometro" sid="410598016012050" static="0" type="number">0</variable>
+        <event-group description="" sid="659970204968742" title="Configuración inicial">
+            <sub-events>
+                <event-block sid="319670569822021">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="642082921970839" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="828465743514410" type="Function">
+                            <param id="0" name="Name">&quot;CargarValores&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-16" name="Wait" sid="473806594611387" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Call function" sid="742853623151578" type="Function">
+                            <param id="0" name="Name">&quot;CargarImagenes&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-16" name="Wait" sid="583864270530011" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="0" name="Call function" sid="498089687084151" type="Function">
+                            <param id="0" name="Name">&quot;CargarTarjetas&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="280490553439432" title="Valores para el juego">
+            <sub-events>
+                <event-block sid="504628459097195">
+                    <conditions>
+                        <condition id="0" name="On function" sid="942668159885479" type="Function">
+                            <param id="0" name="Name">&quot;CargarValores&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="250451652090820" type="imagenesPosibles">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Value">&quot;Acreedor&quot;</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="820420942266171" type="imagenesPosibles">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Value">&quot;Deudor&quot;</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="919446835323258" type="imagenesPosibles">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Value">&quot;Contrato&quot;</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="889566528727684" type="imagenesPosibles">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Value">&quot;Cuota&quot;</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="204289666237511" type="imagenesPosibles">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Value">&quot;Interes&quot;</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="891979045849368" type="imagenesPosibles">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Value">&quot;Capacidad&quot;</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="292556149833549" type="imagenesPosibles">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Value">&quot;Colateral&quot;</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="249088303057120" type="imagenesPosibles">
+                            <param id="0" name="X">7</param>
+                            <param id="1" name="Value">&quot;Fiduciaria&quot;</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="117783007139723" type="imagenesPosibles">
+                            <param id="0" name="X">8</param>
+                            <param id="1" name="Value">&quot;Prendaria&quot;</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="705734921869583" type="imagenesPosibles">
+                            <param id="0" name="X">9</param>
+                            <param id="1" name="Value">&quot;Plazo&quot;</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="287886005575798" type="imagenesPosibles">
+                            <param id="0" name="X">10</param>
+                            <param id="1" name="Value">&quot;Hipotecaria&quot;</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="145520980393457" type="imagenesPosibles">
+                            <param id="0" name="X">11</param>
+                            <param id="1" name="Value">&quot;Condiciones&quot;</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="948728654531952" type="imagenesPosibles">
+                            <param id="0" name="X">12</param>
+                            <param id="1" name="Value">&quot;Caracter&quot;</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="925817531080523" type="imagenesPosibles">
+                            <param id="0" name="X">13</param>
+                            <param id="1" name="Value">&quot;Capital&quot;</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="866922674498437" type="imagenesPosibles">
+                            <param id="0" name="X">14</param>
+                            <param id="1" name="Value">&quot;Historial&quot;</param>
+                        </action>
+                        <action id="14" name="Log" sid="732506434904341" type="Browser">
+                            <param id="0" name="Type">0</param>
+                            <param id="1" name="Message">&quot;Tamaño del array: &quot;&amp;imagenesPosibles.Width</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="456599926042995" type="textosPosibles">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Value">&quot;Acreedor&quot;</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="554690324274854" type="textosPosibles">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Value">&quot;Deudor&quot;</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="943630721659800" type="textosPosibles">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Value">&quot;Contrato&quot;</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="470640621397648" type="textosPosibles">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Value">&quot;Cuota&quot;</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="651997521500242" type="textosPosibles">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Value">&quot;Interes&quot;</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="961446541376270" type="textosPosibles">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Value">&quot;Capacidad&quot;</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="519857817050757" type="textosPosibles">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Value">&quot;Colateral&quot;</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="725470207795986" type="textosPosibles">
+                            <param id="0" name="X">7</param>
+                            <param id="1" name="Value">&quot;Fiduciaria&quot;</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="537299021178836" type="textosPosibles">
+                            <param id="0" name="X">8</param>
+                            <param id="1" name="Value">&quot;Prendaria&quot;</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="107514946351415" type="textosPosibles">
+                            <param id="0" name="X">9</param>
+                            <param id="1" name="Value">&quot;Plazo&quot;</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="630001175212684" type="textosPosibles">
+                            <param id="0" name="X">10</param>
+                            <param id="1" name="Value">&quot;Hipotecaria&quot;</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="259930687940126" type="textosPosibles">
+                            <param id="0" name="X">11</param>
+                            <param id="1" name="Value">&quot;Condiciones&quot;</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="822241839831609" type="textosPosibles">
+                            <param id="0" name="X">12</param>
+                            <param id="1" name="Value">&quot;Caracter&quot;</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="241411981004836" type="textosPosibles">
+                            <param id="0" name="X">13</param>
+                            <param id="1" name="Value">&quot;Capital&quot;</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="151157913020429" type="textosPosibles">
+                            <param id="0" name="X">14</param>
+                            <param id="1" name="Value">&quot;Historial&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="574252631012359" title="Botones navegación">
+            <sub-events>
+                <event-block sid="693847719268592">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="317108653240441" type="Touch">
+                            <param id="0" name="Object">btnAcercaDe</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="460249394246206" type="System">
+                            <param id="0" name="Layout">AcercaDe</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="950897246073918" title="Cargar tarjetas con imágenes">
+            <sub-events>
+                <variable constant="0" name="index" sid="703984914366411" static="0" type="number">0</variable>
+                <variable constant="0" name="aux" sid="720730330813360" static="0" type="number">0</variable>
+                <event-block sid="380179301887103">
+                    <conditions>
+                        <condition id="0" name="On function" sid="762059970592404" type="Function">
+                            <param id="0" name="Name">&quot;CargarImagenes&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="523127228706487">
+                            <conditions>
+                                <condition id="3" name="For each element" sid="575098617175762" type="tempImagenes">
+                                    <param id="0" name="Axes">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="682166266038719" type="System">
+                                    <param id="0" name="Variable">aux</param>
+                                    <param id="1" name="Value">random(0,imagenesPosibles.Width)</param>
+                                </action>
+                                <action id="2" name="Set at X" sid="764956475404541" type="tempImagenes">
+                                    <param id="0" name="X">index</param>
+                                    <param id="1" name="Value">imagenesPosibles.At(aux)</param>
+                                </action>
+                                <action id="2" name="Set at X" sid="696411046005654" type="tempTextos">
+                                    <param id="0" name="X">index</param>
+                                    <param id="1" name="Value">imagenesPosibles.At(aux)</param>
+                                </action>
+                                <action id="9" name="Delete" sid="168740198816950" type="imagenesPosibles">
+                                    <param id="0" name="Index">aux</param>
+                                    <param id="1" name="Axis">0</param>
+                                </action>
+                                <action id="9" name="Delete" sid="856293613358014" type="textosPosibles">
+                                    <param id="0" name="Index">aux</param>
+                                    <param id="1" name="Axis">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="954213448606400" type="System">
+                                    <param id="0" name="Variable">index</param>
+                                    <param id="1" name="Value">index+1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="987959051992454" title="Cargar imagenes del juego">
+            <sub-events>
+                <variable constant="0" name="index" sid="334086550493718" static="0" type="number">1</variable>
+                <variable constant="0" name="aux" sid="744416316278426" static="0" type="number">0</variable>
+                <variable constant="0" name="animacion" sid="448137513470993" static="0" type="text"></variable>
+                <event-block sid="909135576099205">
+                    <conditions>
+                        <condition id="0" name="On function" sid="785149892570212" type="Function">
+                            <param id="0" name="Name">&quot;CargarTarjetas&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="314499016758499">
+                            <conditions>
+                                <condition id="-11" name="For Each" sid="231004271469024" type="System">
+                                    <param id="0" name="Object">Tarjeta</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="620866732074212" type="Tarjeta">
+                                    <param id="0" name="Instance variable">animacion</param>
+                                    <param id="1" name="Value">&quot;&quot;</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="799628576302670" type="System">
+                                    <param id="0" name="Variable">aux</param>
+                                    <param id="1" name="Value">random(0,tempImagenes.Width)</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="103669577506900">
+                                    <conditions>
+                                        <condition id="-8" name="Compare two values" sid="978960054365518" type="System">
+                                            <param id="0" name="First value">index%2</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Second value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Set value" sid="894981744077857" type="Tarjeta">
+                                            <param id="0" name="Instance variable">animacion</param>
+                                            <param id="1" name="Value">tempImagenes.At( int(aux)  )</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="290581244047940" type="System">
+                                            <param id="0" name="Variable">index</param>
+                                            <param id="1" name="Value">index+1</param>
+                                        </action>
+                                        <action id="9" name="Delete" sid="432834219738428" type="tempImagenes">
+                                            <param id="0" name="Index">aux</param>
+                                            <param id="1" name="Axis">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="784417263486601">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="316937452126978" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Set value" sid="882790222426551" type="Tarjeta">
+                                            <param id="0" name="Instance variable">animacion</param>
+                                            <param id="1" name="Value">tempTextos.At(int(aux))</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="150248127986910" type="System">
+                                            <param id="0" name="Variable">index</param>
+                                            <param id="1" name="Value">index+1</param>
+                                        </action>
+                                        <action id="9" name="Delete" sid="174891316711389" type="tempTextos">
+                                            <param id="0" name="Index">aux</param>
+                                            <param id="1" name="Axis">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <variable constant="0" name="control" sid="115278148635133" static="0" type="number">1</variable>
+        <variable constant="0" name="tarjeta1" sid="808573187976404" static="0" type="text"></variable>
+        <variable constant="0" name="tarjeta2" sid="265756971260965" static="0" type="text"></variable>
+        <variable constant="0" name="primeraCliqueada" sid="725054056063988" static="0" type="number">0</variable>
+        <variable constant="0" name="segundaCliqueada" sid="177269067886764" static="0" type="number">0</variable>
+        <variable constant="0" name="cartasCliqueadas" sid="236233571408932" static="0" type="number">0</variable>
+        <variable constant="0" name="parejasLogradas" sid="415697703187842" static="0" type="number">0</variable>
+        <event-group description="" sid="376639668687471" title="Cliquear tarjetas">
+            <sub-events>
+                <event-block sid="342682601016475">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="404393595992255" type="Tarjeta">
+                            <param id="0" name="Instance variable">cliqueable</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="583762589344098" type="System">
+                            <param id="0" name="Variable">cartasCliqueadas</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="943229810234762">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="470341536269541" type="Touch">
+                                    <param id="0" name="Object">Tarjeta</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="14" name="Log" sid="292913473657942" type="Browser">
+                                    <param id="0" name="Type">0</param>
+                                    <param id="1" name="Message">Tarjeta.animacion</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="828615345021507" type="Tarjeta">
+                                    <param id="0" name="Animation">Tarjeta.animacion</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="962527371899056" type="Tarjeta">
+                                    <param id="0" name="Instance variable">cliqueable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="804535140860992" type="System">
+                                    <param id="0" name="Variable">cartasCliqueadas</param>
+                                    <param id="1" name="Value">cartasCliqueadas+1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="796769868238528" type="System">
+                                    <param id="0" name="Variable">intentos</param>
+                                    <param id="1" name="Value">intentos+1</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="391540075892304">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="299480925967465" type="System">
+                                            <param id="0" name="Variable">intentos</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Timer" id="0" name="Start timer" sid="279809370135280" type="btnAcercaDe">
+                                            <param id="0" name="Duration">1.0</param>
+                                            <param id="1" name="Type">1</param>
+                                            <param id="2" name="Tag">&quot;inicioJuego&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="794780756114383">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="409530090574013" type="System">
+                                            <param id="0" name="Variable">control</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="876312981254498" type="System">
+                                            <param id="0" name="Variable">control</param>
+                                            <param id="1" name="Value">2</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="703579119941306" type="System">
+                                            <param id="0" name="Variable">primeraCliqueada</param>
+                                            <param id="1" name="Value">Tarjeta.UID</param>
+                                        </action>
+                                        <action id="14" name="Log" sid="675322290208427" type="Browser">
+                                            <param id="0" name="Type">0</param>
+                                            <param id="1" name="Message">&quot;Primera: &quot;&amp;primeraCliqueada</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="189287676358675" type="System">
+                                            <param id="0" name="Variable">tarjeta1</param>
+                                            <param id="1" name="Value">Tarjeta.animacion</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="909021553082429">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="245696418710023" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="620860228748728" type="System">
+                                            <param id="0" name="Variable">control</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="813020748681533" type="System">
+                                            <param id="0" name="Variable">segundaCliqueada</param>
+                                            <param id="1" name="Value">Tarjeta.UID</param>
+                                        </action>
+                                        <action id="14" name="Log" sid="414559820747218" type="Browser">
+                                            <param id="0" name="Type">0</param>
+                                            <param id="1" name="Message">&quot;Segunda: &quot;&amp;segundaCliqueada</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="976170219508042" type="System">
+                                            <param id="0" name="Variable">tarjeta2</param>
+                                            <param id="1" name="Value">Tarjeta.animacion</param>
+                                        </action>
+                                        <action id="14" name="Log" sid="358134410767436" type="Browser">
+                                            <param id="0" name="Type">0</param>
+                                            <param id="1" name="Message">&quot;Comparando &quot;&amp;tarjeta1&amp;&quot; y &quot;&amp;tarjeta2</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="664854070456840">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="737524176008006" type="System">
+                                                    <param id="0" name="Variable">tarjeta1</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">tarjeta2</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-16" name="Wait" sid="341978593109169" type="System">
+                                                    <param id="0" name="Seconds">1.0</param>
+                                                </action>
+                                                <action id="14" name="Log" sid="762282471565044" type="Browser">
+                                                    <param id="0" name="Type">0</param>
+                                                    <param id="1" name="Message">&quot;Son iguales&quot;</param>
+                                                </action>
+                                            </actions>
+                                            <sub-events>
+                                                <event-block sid="910139725116722">
+                                                    <conditions>
+                                                        <condition id="-14" name="Pick by unique ID" sid="658808683557434" type="Tarjeta">
+                                                            <param id="0" name="Unique ID">segundaCliqueada</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-9" name="Destroy" sid="593245915374207" type="Tarjeta" />
+                                                        <action id="14" name="Log" sid="765415940958760" type="Browser">
+                                                            <param id="0" name="Type">0</param>
+                                                            <param id="1" name="Message">&quot;Segunda: &quot;&amp;segundaCliqueada</param>
+                                                        </action>
+                                                        <action id="0" name="Call function" sid="161209705983252" type="Function">
+                                                            <param id="0" name="Name">&quot;EliminarIguales&quot;</param>
+                                                            <param id="1" name="Parameter {n}"></param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
+                                        </event-block>
+                                        <event-block sid="989107739447475">
+                                            <conditions>
+                                                <condition id="-22" name="Else" sid="406083408119412" type="System" />
+                                            </conditions>
+                                            <actions>
+                                                <action id="14" name="Log" sid="466036532955632" type="Browser">
+                                                    <param id="0" name="Type">0</param>
+                                                    <param id="1" name="Message">&quot;Son diferentes&quot;</param>
+                                                </action>
+                                                <action id="-16" name="Wait" sid="712231959857844" type="System">
+                                                    <param id="0" name="Seconds">1.0</param>
+                                                </action>
+                                            </actions>
+                                            <sub-events>
+                                                <event-block sid="213055995468143">
+                                                    <conditions>
+                                                        <condition id="-14" name="Pick by unique ID" sid="194221753578152" type="Tarjeta">
+                                                            <param id="0" name="Unique ID">segundaCliqueada</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="4" name="Set animation" sid="378993200730288" type="Tarjeta">
+                                                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                                                            <param id="1" name="From">1</param>
+                                                        </action>
+                                                        <action id="-10" name="Set value" sid="411867263626325" type="Tarjeta">
+                                                            <param id="0" name="Instance variable">cliqueable</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                        <action id="14" name="Log" sid="922385895755434" type="Browser">
+                                                            <param id="0" name="Type">0</param>
+                                                            <param id="1" name="Message">&quot;Segunda: &quot;&amp;segundaCliqueada</param>
+                                                        </action>
+                                                        <action id="0" name="Call function" sid="609426059431143" type="Function">
+                                                            <param id="0" name="Name">&quot;ResetearDiferentes&quot;</param>
+                                                            <param id="1" name="Parameter {n}"></param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="889541683773665">
+                    <conditions>
+                        <condition id="0" name="On function" sid="796445296537643" type="Function">
+                            <param id="0" name="Name">&quot;ResetearDiferentes&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="895784675170944">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="720747029387878" type="Tarjeta">
+                                    <param id="0" name="Unique ID">primeraCliqueada</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="239844918715157" type="Tarjeta">
+                                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="14" name="Log" sid="297703415784499" type="Browser">
+                                    <param id="0" name="Type">0</param>
+                                    <param id="1" name="Message">&quot;Primera: &quot;&amp;primeraCliqueada</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="623098460478181" type="Tarjeta">
+                                    <param id="0" name="Instance variable">cliqueable</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="548843283853851" type="System">
+                                    <param id="0" name="Variable">cartasCliqueadas</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="985134723500275">
+                    <conditions>
+                        <condition id="0" name="On function" sid="992529838485494" type="Function">
+                            <param id="0" name="Name">&quot;EliminarIguales&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="304993233901073">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="501728772557047" type="Tarjeta">
+                                    <param id="0" name="Unique ID">primeraCliqueada</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="580020562595581" type="Tarjeta" />
+                                <action id="14" name="Log" sid="745990468712206" type="Browser">
+                                    <param id="0" name="Type">0</param>
+                                    <param id="1" name="Message">&quot;Primera: &quot;&amp;primeraCliqueada</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="581243860079756" type="System">
+                                    <param id="0" name="Variable">cartasCliqueadas</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="299518285980521" type="System">
+                                    <param id="0" name="Variable">parejasLogradas</param>
+                                    <param id="1" name="Value">parejasLogradas+1</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <variable constant="0" name="tiempoTardado" sid="483324265516605" static="0" type="number">0</variable>
+                                <event-block sid="685560095299027">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="834700496518952" type="System">
+                                            <param id="0" name="Variable">parejasLogradas</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">8</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="14" name="Log" sid="340727341263637" type="Browser">
+                                            <param id="0" name="Type">0</param>
+                                            <param id="1" name="Message">&quot;Juego terminado&quot;</param>
+                                        </action>
+                                        <action id="-15" name="Set visible" sid="297611371786181" type="ventanaResumen">
+                                            <param id="0" name="Visibility">1</param>
+                                        </action>
+                                        <action id="14" name="Log" sid="997520262600084" type="Browser">
+                                            <param id="0" name="Type">0</param>
+                                            <param id="1" name="Message">&quot;Crono: &quot;&amp;btnAcercaDe.Timer.TotalTime(&quot;inicioJuego&quot;)</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="961826846028407" type="System">
+                                            <param id="0" name="Variable">tiempoTardado</param>
+                                            <param id="1" name="Value">round(btnAcercaDe.Timer.TotalTime(&quot;inicioJuego&quot;))</param>
+                                        </action>
+                                        <action id="1" name="Append text" sid="418580496988113" type="txtIntentos">
+                                            <param id="0" name="Text">&quot; &quot;&amp;intentos/2</param>
+                                        </action>
+                                        <action id="1" name="Append text" sid="178602621017425" type="txtTiempo">
+                                            <param id="0" name="Text">&quot; &quot;&amp;tiempoTardado&amp;&quot; segundos&quot;</param>
+                                        </action>
+                                        <action id="-15" name="Set visible" sid="527123774522343" type="resumen">
+                                            <param id="0" name="Visibility">1</param>
+                                        </action>
+                                        <action id="14" name="Log" sid="922840381911173" type="Browser">
+                                            <param id="0" name="Type">0</param>
+                                            <param id="1" name="Message">&quot;Tiempo tardado: &quot;&amp;round(tiempoTardado)</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="567117131614068" title="Temporizador">
+            <sub-events>
+                <event-block sid="743426162746318">
+                    <conditions>
+                        <condition id="0" name="On function" sid="673362224118764" type="Function">
+                            <param id="0" name="Name">&quot;IniciarCrono&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="755300996138458">
+                            <conditions>
+                                <condition id="-6" name="Every X seconds" sid="570916959304041" type="System">
+                                    <param id="0" name="Interval (seconds)">1.0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="692651626831786" type="System">
+                                    <param id="0" name="Variable">cronometro</param>
+                                    <param id="1" name="Value">cronometro+1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

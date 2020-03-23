@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>eAcercaDe</name>
+    <events>
+        <event-group description="" sid="141469590310778" title="Botonera">
+            <sub-events>
+                <event-block sid="733988593871912">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="241869693682511" type="Touch">
+                            <param id="0" name="Object">btnInicio</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="837610295818771" type="System">
+                            <param id="0" name="Layout">Principal</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>
