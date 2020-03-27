@@ -45,63 +45,63 @@
                     <actions>
                         <action id="2" name="Set at X" sid="250451652090820" type="imagenesPosibles">
                             <param id="0" name="X">0</param>
-                            <param id="1" name="Value">&quot;Acreedor&quot;</param>
+                            <param id="1" name="Value">&quot;Acreedor01&quot;</param>
                         </action>
                         <action id="2" name="Set at X" sid="820420942266171" type="imagenesPosibles">
                             <param id="0" name="X">1</param>
-                            <param id="1" name="Value">&quot;Deudor&quot;</param>
+                            <param id="1" name="Value">&quot;Deudor02&quot;</param>
                         </action>
                         <action id="2" name="Set at X" sid="919446835323258" type="imagenesPosibles">
                             <param id="0" name="X">2</param>
-                            <param id="1" name="Value">&quot;Contrato&quot;</param>
+                            <param id="1" name="Value">&quot;Contrato03&quot;</param>
                         </action>
                         <action id="2" name="Set at X" sid="889566528727684" type="imagenesPosibles">
                             <param id="0" name="X">3</param>
-                            <param id="1" name="Value">&quot;Cuota&quot;</param>
+                            <param id="1" name="Value">&quot;Cuota04&quot;</param>
                         </action>
                         <action id="2" name="Set at X" sid="204289666237511" type="imagenesPosibles">
                             <param id="0" name="X">4</param>
-                            <param id="1" name="Value">&quot;Interes&quot;</param>
+                            <param id="1" name="Value">&quot;Interes05&quot;</param>
                         </action>
                         <action id="2" name="Set at X" sid="891979045849368" type="imagenesPosibles">
                             <param id="0" name="X">5</param>
-                            <param id="1" name="Value">&quot;Capacidad&quot;</param>
+                            <param id="1" name="Value">&quot;Capacidad06&quot;</param>
                         </action>
                         <action id="2" name="Set at X" sid="292556149833549" type="imagenesPosibles">
                             <param id="0" name="X">6</param>
-                            <param id="1" name="Value">&quot;Colateral&quot;</param>
+                            <param id="1" name="Value">&quot;Colateral07&quot;</param>
                         </action>
                         <action id="2" name="Set at X" sid="249088303057120" type="imagenesPosibles">
                             <param id="0" name="X">7</param>
-                            <param id="1" name="Value">&quot;Fiduciaria&quot;</param>
+                            <param id="1" name="Value">&quot;Plazo08&quot;</param>
                         </action>
                         <action id="2" name="Set at X" sid="117783007139723" type="imagenesPosibles">
                             <param id="0" name="X">8</param>
-                            <param id="1" name="Value">&quot;Prendaria&quot;</param>
+                            <param id="1" name="Value">&quot;Fiduciaria09&quot;</param>
                         </action>
                         <action id="2" name="Set at X" sid="705734921869583" type="imagenesPosibles">
                             <param id="0" name="X">9</param>
-                            <param id="1" name="Value">&quot;Plazo&quot;</param>
+                            <param id="1" name="Value">&quot;Prendaria10&quot;</param>
                         </action>
                         <action id="2" name="Set at X" sid="287886005575798" type="imagenesPosibles">
                             <param id="0" name="X">10</param>
-                            <param id="1" name="Value">&quot;Hipotecaria&quot;</param>
+                            <param id="1" name="Value">&quot;Hipotecaria11&quot;</param>
                         </action>
                         <action id="2" name="Set at X" sid="145520980393457" type="imagenesPosibles">
                             <param id="0" name="X">11</param>
-                            <param id="1" name="Value">&quot;Condiciones&quot;</param>
+                            <param id="1" name="Value">&quot;Condiciones12&quot;</param>
                         </action>
                         <action id="2" name="Set at X" sid="948728654531952" type="imagenesPosibles">
                             <param id="0" name="X">12</param>
-                            <param id="1" name="Value">&quot;Caracter&quot;</param>
+                            <param id="1" name="Value">&quot;Caracter13&quot;</param>
                         </action>
                         <action id="2" name="Set at X" sid="925817531080523" type="imagenesPosibles">
                             <param id="0" name="X">13</param>
-                            <param id="1" name="Value">&quot;Capital&quot;</param>
+                            <param id="1" name="Value">&quot;Capital14&quot;</param>
                         </action>
                         <action id="2" name="Set at X" sid="866922674498437" type="imagenesPosibles">
                             <param id="0" name="X">14</param>
-                            <param id="1" name="Value">&quot;Historial&quot;</param>
+                            <param id="1" name="Value">&quot;Historial15&quot;</param>
                         </action>
                         <action id="14" name="Log" sid="732506434904341" type="Browser">
                             <param id="0" name="Type">0</param>
@@ -109,63 +109,63 @@
                         </action>
                         <action id="2" name="Set at X" sid="456599926042995" type="textosPosibles">
                             <param id="0" name="X">0</param>
-                            <param id="1" name="Value">&quot;Acreedor&quot;</param>
+                            <param id="1" name="Value">&quot;TAcreedor01&quot;</param>
                         </action>
                         <action id="2" name="Set at X" sid="554690324274854" type="textosPosibles">
                             <param id="0" name="X">1</param>
-                            <param id="1" name="Value">&quot;Deudor&quot;</param>
+                            <param id="1" name="Value">&quot;TDeudor02&quot;</param>
                         </action>
                         <action id="2" name="Set at X" sid="943630721659800" type="textosPosibles">
                             <param id="0" name="X">2</param>
-                            <param id="1" name="Value">&quot;Contrato&quot;</param>
+                            <param id="1" name="Value">&quot;TContrato03&quot;</param>
                         </action>
                         <action id="2" name="Set at X" sid="470640621397648" type="textosPosibles">
                             <param id="0" name="X">3</param>
-                            <param id="1" name="Value">&quot;Cuota&quot;</param>
+                            <param id="1" name="Value">&quot;TCuota04&quot;</param>
                         </action>
                         <action id="2" name="Set at X" sid="651997521500242" type="textosPosibles">
                             <param id="0" name="X">4</param>
-                            <param id="1" name="Value">&quot;Interes&quot;</param>
+                            <param id="1" name="Value">&quot;TInteres05&quot;</param>
                         </action>
                         <action id="2" name="Set at X" sid="961446541376270" type="textosPosibles">
                             <param id="0" name="X">5</param>
-                            <param id="1" name="Value">&quot;Capacidad&quot;</param>
+                            <param id="1" name="Value">&quot;TCapacidad06&quot;</param>
                         </action>
                         <action id="2" name="Set at X" sid="519857817050757" type="textosPosibles">
                             <param id="0" name="X">6</param>
-                            <param id="1" name="Value">&quot;Colateral&quot;</param>
+                            <param id="1" name="Value">&quot;TColateral07&quot;</param>
                         </action>
                         <action id="2" name="Set at X" sid="725470207795986" type="textosPosibles">
                             <param id="0" name="X">7</param>
-                            <param id="1" name="Value">&quot;Fiduciaria&quot;</param>
+                            <param id="1" name="Value">&quot;TPlazo08&quot;</param>
                         </action>
                         <action id="2" name="Set at X" sid="537299021178836" type="textosPosibles">
                             <param id="0" name="X">8</param>
-                            <param id="1" name="Value">&quot;Prendaria&quot;</param>
+                            <param id="1" name="Value">&quot;TFiduciaria09&quot;</param>
                         </action>
                         <action id="2" name="Set at X" sid="107514946351415" type="textosPosibles">
                             <param id="0" name="X">9</param>
-                            <param id="1" name="Value">&quot;Plazo&quot;</param>
+                            <param id="1" name="Value">&quot;TPrendaria10&quot;</param>
                         </action>
                         <action id="2" name="Set at X" sid="630001175212684" type="textosPosibles">
                             <param id="0" name="X">10</param>
-                            <param id="1" name="Value">&quot;Hipotecaria&quot;</param>
+                            <param id="1" name="Value">&quot;THipotecaria11&quot;</param>
                         </action>
                         <action id="2" name="Set at X" sid="259930687940126" type="textosPosibles">
                             <param id="0" name="X">11</param>
-                            <param id="1" name="Value">&quot;Condiciones&quot;</param>
+                            <param id="1" name="Value">&quot;TCondiciones12&quot;</param>
                         </action>
                         <action id="2" name="Set at X" sid="822241839831609" type="textosPosibles">
                             <param id="0" name="X">12</param>
-                            <param id="1" name="Value">&quot;Caracter&quot;</param>
+                            <param id="1" name="Value">&quot;TCaracter13&quot;</param>
                         </action>
                         <action id="2" name="Set at X" sid="241411981004836" type="textosPosibles">
                             <param id="0" name="X">13</param>
-                            <param id="1" name="Value">&quot;Capital&quot;</param>
+                            <param id="1" name="Value">&quot;TCapital14&quot;</param>
                         </action>
                         <action id="2" name="Set at X" sid="151157913020429" type="textosPosibles">
                             <param id="0" name="X">14</param>
-                            <param id="1" name="Value">&quot;Historial&quot;</param>
+                            <param id="1" name="Value">&quot;THistorial15&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -185,11 +185,45 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="817505915155902">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="991853749896992" type="System">
+                            <param id="0" name="Variable">parejasLogradas</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">8</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="558659095755872">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="915132158397469" type="Touch">
+                                    <param id="0" name="Object">btnCerrar</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-26" name="Restart layout" sid="805056971376524" type="System" />
+                                <action id="-15" name="Set visible" sid="224739582176275" type="btnCerrar">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="937052158448761" type="ventanaResumen">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="0" name="Call function" sid="309993392301537" type="Function">
+                                    <param id="0" name="Name">&quot;Reiniciar&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
             </sub-events>
         </event-group>
         <event-group description="" sid="950897246073918" title="Cargar tarjetas con imágenes">
             <sub-events>
+                <variable constant="0" name="index2" sid="243081154792265" static="0" type="number">0</variable>
                 <variable constant="0" name="index" sid="703984914366411" static="0" type="number">0</variable>
+                <variable constant="0" name="aux2" sid="294628727328180" static="0" type="number">0</variable>
                 <variable constant="0" name="aux" sid="720730330813360" static="0" type="number">0</variable>
                 <event-block sid="380179301887103">
                     <conditions>
@@ -201,8 +235,10 @@
                     <sub-events>
                         <event-block sid="523127228706487">
                             <conditions>
-                                <condition id="3" name="For each element" sid="575098617175762" type="tempImagenes">
-                                    <param id="0" name="Axes">2</param>
+                                <condition id="-10" name="For" sid="575098617175762" type="System">
+                                    <param id="0" name="Name">&quot;cicloTemporales&quot;</param>
+                                    <param id="1" name="Start index">0</param>
+                                    <param id="2" name="End index">7</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -214,21 +250,33 @@
                                     <param id="0" name="X">index</param>
                                     <param id="1" name="Value">imagenesPosibles.At(aux)</param>
                                 </action>
-                                <action id="2" name="Set at X" sid="696411046005654" type="tempTextos">
-                                    <param id="0" name="X">index</param>
-                                    <param id="1" name="Value">imagenesPosibles.At(aux)</param>
-                                </action>
                                 <action id="9" name="Delete" sid="168740198816950" type="imagenesPosibles">
                                     <param id="0" name="Index">aux</param>
                                     <param id="1" name="Axis">0</param>
                                 </action>
-                                <action id="9" name="Delete" sid="856293613358014" type="textosPosibles">
+                                <action id="2" name="Set at X" sid="237340722916745" type="tempTextos">
+                                    <param id="0" name="X">index</param>
+                                    <param id="1" name="Value">textosPosibles.At(aux)</param>
+                                </action>
+                                <action id="9" name="Delete" sid="459573707851857" type="textosPosibles">
                                     <param id="0" name="Index">aux</param>
                                     <param id="1" name="Axis">0</param>
+                                </action>
+                                <action id="14" name="Log" sid="210976365999106" type="Browser">
+                                    <param id="0" name="Type">0</param>
+                                    <param id="1" name="Message">&quot;Imagen&quot;&amp;index&amp;&quot;: &quot;&amp;tempImagenes.At(index)</param>
+                                </action>
+                                <action id="14" name="Log" sid="725290297307007" type="Browser">
+                                    <param id="0" name="Type">0</param>
+                                    <param id="1" name="Message">&quot;Texto&quot;&amp;index2&amp;&quot;: &quot;&amp;tempTextos.At(index2)</param>
                                 </action>
                                 <action id="-9" name="Set value" sid="954213448606400" type="System">
                                     <param id="0" name="Variable">index</param>
                                     <param id="1" name="Value">index+1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="469696992277974" type="System">
+                                    <param id="0" name="Variable">index2</param>
+                                    <param id="1" name="Value">index2+1</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -260,10 +308,6 @@
                                     <param id="0" name="Instance variable">animacion</param>
                                     <param id="1" name="Value">&quot;&quot;</param>
                                 </action>
-                                <action id="-9" name="Set value" sid="799628576302670" type="System">
-                                    <param id="0" name="Variable">aux</param>
-                                    <param id="1" name="Value">random(0,tempImagenes.Width)</param>
-                                </action>
                             </actions>
                             <sub-events>
                                 <event-block sid="103669577506900">
@@ -275,6 +319,10 @@
                                         </condition>
                                     </conditions>
                                     <actions>
+                                        <action id="-9" name="Set value" sid="799628576302670" type="System">
+                                            <param id="0" name="Variable">aux</param>
+                                            <param id="1" name="Value">random(0,tempImagenes.Width)</param>
+                                        </action>
                                         <action id="-10" name="Set value" sid="894981744077857" type="Tarjeta">
                                             <param id="0" name="Instance variable">animacion</param>
                                             <param id="1" name="Value">tempImagenes.At( int(aux)  )</param>
@@ -287,6 +335,10 @@
                                             <param id="0" name="Index">aux</param>
                                             <param id="1" name="Axis">0</param>
                                         </action>
+                                        <action disabled="1" id="14" name="Log" sid="182560242503012" type="Browser">
+                                            <param id="0" name="Type">0</param>
+                                            <param id="1" name="Message">&quot;Imagen agregada: &quot;&amp;tempImagenes.At(index)</param>
+                                        </action>
                                     </actions>
                                 </event-block>
                                 <event-block sid="784417263486601">
@@ -294,6 +346,10 @@
                                         <condition id="-22" name="Else" sid="316937452126978" type="System" />
                                     </conditions>
                                     <actions>
+                                        <action id="-9" name="Set value" sid="874961088343287" type="System">
+                                            <param id="0" name="Variable">aux</param>
+                                            <param id="1" name="Value">random(0,tempTextos.Width)</param>
+                                        </action>
                                         <action id="-10" name="Set value" sid="882790222426551" type="Tarjeta">
                                             <param id="0" name="Instance variable">animacion</param>
                                             <param id="1" name="Value">tempTextos.At(int(aux))</param>
@@ -305,6 +361,10 @@
                                         <action id="9" name="Delete" sid="174891316711389" type="tempTextos">
                                             <param id="0" name="Index">aux</param>
                                             <param id="1" name="Axis">0</param>
+                                        </action>
+                                        <action disabled="1" id="14" name="Log" sid="911764871499755" type="Browser">
+                                            <param id="0" name="Type">0</param>
+                                            <param id="1" name="Message">&quot;Texto agregado: &quot;&amp;tempTextos.At(index)</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -348,6 +408,12 @@
                                 <action id="14" name="Log" sid="292913473657942" type="Browser">
                                     <param id="0" name="Type">0</param>
                                     <param id="1" name="Message">Tarjeta.animacion</param>
+                                </action>
+                                <action id="0" name="Play" sid="623950677872216" type="Audio">
+                                    <param id="0" name="Audio file">bambu_1</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                                 </action>
                                 <action id="4" name="Set animation" sid="828615345021507" type="Tarjeta">
                                     <param id="0" name="Animation">Tarjeta.animacion</param>
@@ -406,7 +472,7 @@
                                         </action>
                                         <action id="-9" name="Set value" sid="189287676358675" type="System">
                                             <param id="0" name="Variable">tarjeta1</param>
-                                            <param id="1" name="Value">Tarjeta.animacion</param>
+                                            <param id="1" name="Value">right(Tarjeta.animacion, 2)</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -442,7 +508,7 @@
                                                 <condition id="-14" name="Compare variable" sid="737524176008006" type="System">
                                                     <param id="0" name="Variable">tarjeta1</param>
                                                     <param id="1" name="Comparison">0</param>
-                                                    <param id="2" name="Value">tarjeta2</param>
+                                                    <param id="2" name="Value">right(tarjeta2, 2)</param>
                                                 </condition>
                                             </conditions>
                                             <actions>
@@ -511,6 +577,12 @@
                                                         <action id="0" name="Call function" sid="609426059431143" type="Function">
                                                             <param id="0" name="Name">&quot;ResetearDiferentes&quot;</param>
                                                             <param id="1" name="Parameter {n}"></param>
+                                                        </action>
+                                                        <action id="0" name="Play" sid="772268872512493" type="Audio">
+                                                            <param id="0" name="Audio file">incorrecta</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -585,6 +657,12 @@
                                     <param id="0" name="Variable">parejasLogradas</param>
                                     <param id="1" name="Value">parejasLogradas+1</param>
                                 </action>
+                                <action id="0" name="Play" sid="406364302011516" type="Audio">
+                                    <param id="0" name="Audio file">correcto</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
                             </actions>
                             <sub-events>
                                 <variable constant="0" name="tiempoTardado" sid="483324265516605" static="0" type="number">0</variable>
@@ -602,6 +680,9 @@
                                             <param id="1" name="Message">&quot;Juego terminado&quot;</param>
                                         </action>
                                         <action id="-15" name="Set visible" sid="297611371786181" type="ventanaResumen">
+                                            <param id="0" name="Visibility">1</param>
+                                        </action>
+                                        <action id="-15" name="Set visible" sid="654013544338379" type="btnCerrar">
                                             <param id="0" name="Visibility">1</param>
                                         </action>
                                         <action id="14" name="Log" sid="997520262600084" type="Browser">
@@ -624,6 +705,12 @@
                                         <action id="14" name="Log" sid="922840381911173" type="Browser">
                                             <param id="0" name="Type">0</param>
                                             <param id="1" name="Message">&quot;Tiempo tardado: &quot;&amp;round(tiempoTardado)</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="287844942434084" type="Audio">
+                                            <param id="0" name="Audio file">ganador</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -660,5 +747,41 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-group description="" sid="244338931940418" title="Reiniciar" />
+        <event-block sid="556182581962003">
+            <conditions>
+                <condition id="0" name="On function" sid="943732193715417" type="Function">
+                    <param id="0" name="Name">&quot;Reiniciar&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="14" name="Log" sid="726697526704429" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;Reiniciando&quot;</param>
+                </action>
+                <action id="0" name="Clear" sid="995016235356542" type="tempImagenes" />
+                <action id="0" name="Clear" sid="231425877701907" type="imagenesPosibles" />
+                <action id="0" name="Clear" sid="256162773232637" type="tempTextos" />
+                <action id="0" name="Clear" sid="441479510677863" type="textosPosibles" />
+                <action id="0" name="Call function" sid="211387592903079" type="Function">
+                    <param id="0" name="Name">&quot;CargarValores&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="-16" name="Wait" sid="651364876408912" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="0" name="Call function" sid="196103740666505" type="Function">
+                    <param id="0" name="Name">&quot;CargarImagenes&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="-16" name="Wait" sid="812043797393482" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="0" name="Call function" sid="218676663255319" type="Function">
+                    <param id="0" name="Name">&quot;CargarTarjetas&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

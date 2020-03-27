@@ -11,6 +11,7 @@
     <saved-with-version>27500</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
         <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
@@ -71,7 +72,7 @@
                             </collision-poly>
                         </frame>
                     </animation>
-                    <animation framecount="1" loop="0" name="Acreedor" pingpong="0" repeatcount="1" repeatto="0" sid="196822658316582" speed="5">
+                    <animation framecount="1" loop="0" name="Acreedor01" pingpong="0" repeatcount="1" repeatto="0" sid="196822658316582" speed="5">
                         <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjeta-03.png">
                             <collision-poly>
                                 <point x="0.0186335" y="0.0252101" />
@@ -85,7 +86,7 @@
                             </collision-poly>
                         </frame>
                     </animation>
-                    <animation framecount="1" loop="0" name="Deudor" pingpong="0" repeatcount="1" repeatto="0" sid="947365440641856" speed="5">
+                    <animation framecount="1" loop="0" name="Deudor02" pingpong="0" repeatcount="1" repeatto="0" sid="947365440641856" speed="5">
                         <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-01.png">
                             <collision-poly>
                                 <point x="0.0186335" y="0.0252101" />
@@ -99,7 +100,7 @@
                             </collision-poly>
                         </frame>
                     </animation>
-                    <animation framecount="1" loop="0" name="Contrato" pingpong="0" repeatcount="1" repeatto="0" sid="836133171865590" speed="5">
+                    <animation framecount="1" loop="0" name="Contrato03" pingpong="0" repeatcount="1" repeatto="0" sid="836133171865590" speed="5">
                         <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-05.png">
                             <collision-poly>
                                 <point x="0.0186335" y="0.0252101" />
@@ -113,7 +114,7 @@
                             </collision-poly>
                         </frame>
                     </animation>
-                    <animation framecount="1" loop="0" name="Cuota" pingpong="0" repeatcount="1" repeatto="0" sid="506668735831468" speed="5">
+                    <animation framecount="1" loop="0" name="Cuota04" pingpong="0" repeatcount="1" repeatto="0" sid="506668735831468" speed="5">
                         <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-07.png">
                             <collision-poly>
                                 <point x="0.0186335" y="0.0252101" />
@@ -127,7 +128,7 @@
                             </collision-poly>
                         </frame>
                     </animation>
-                    <animation framecount="1" loop="0" name="Interes" pingpong="0" repeatcount="1" repeatto="0" sid="564344773363616" speed="5">
+                    <animation framecount="1" loop="0" name="Interes05" pingpong="0" repeatcount="1" repeatto="0" sid="564344773363616" speed="5">
                         <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-11.png">
                             <collision-poly>
                                 <point x="0.0186335" y="0.0252101" />
@@ -141,7 +142,7 @@
                             </collision-poly>
                         </frame>
                     </animation>
-                    <animation framecount="1" loop="0" name="Capacidad" pingpong="0" repeatcount="1" repeatto="0" sid="882305054230201" speed="5">
+                    <animation framecount="1" loop="0" name="Capacidad06" pingpong="0" repeatcount="1" repeatto="0" sid="882305054230201" speed="5">
                         <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-14.png">
                             <collision-poly>
                                 <point x="0.0186335" y="0.0252101" />
@@ -155,7 +156,7 @@
                             </collision-poly>
                         </frame>
                     </animation>
-                    <animation framecount="1" loop="0" name="Colateral" pingpong="0" repeatcount="1" repeatto="0" sid="346970097654652" speed="5">
+                    <animation framecount="1" loop="0" name="Colateral07" pingpong="0" repeatcount="1" repeatto="0" sid="346970097654652" speed="5">
                         <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-16.png">
                             <collision-poly>
                                 <point x="0.0186335" y="0.0252101" />
@@ -169,7 +170,7 @@
                             </collision-poly>
                         </frame>
                     </animation>
-                    <animation framecount="1" loop="0" name="Plazo" pingpong="0" repeatcount="1" repeatto="0" sid="201347095093447" speed="5">
+                    <animation framecount="1" loop="0" name="Plazo08" pingpong="0" repeatcount="1" repeatto="0" sid="201347095093447" speed="5">
                         <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-09.png">
                             <collision-poly>
                                 <point x="0.0186335" y="0.0252101" />
@@ -183,7 +184,7 @@
                             </collision-poly>
                         </frame>
                     </animation>
-                    <animation framecount="1" loop="0" name="Fiduciaria" pingpong="0" repeatcount="1" repeatto="0" sid="597395753399464" speed="5">
+                    <animation framecount="1" loop="0" name="Fiduciaria09" pingpong="0" repeatcount="1" repeatto="0" sid="597395753399464" speed="5">
                         <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-18.png">
                             <collision-poly>
                                 <point x="0.0186335" y="0.0252101" />
@@ -197,7 +198,7 @@
                             </collision-poly>
                         </frame>
                     </animation>
-                    <animation framecount="1" loop="0" name="Prendaria" pingpong="0" repeatcount="1" repeatto="0" sid="980737667970726" speed="5">
+                    <animation framecount="1" loop="0" name="Prendaria10" pingpong="0" repeatcount="1" repeatto="0" sid="980737667970726" speed="5">
                         <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-20.png">
                             <collision-poly>
                                 <point x="0.0186335" y="0.0252101" />
@@ -211,7 +212,7 @@
                             </collision-poly>
                         </frame>
                     </animation>
-                    <animation framecount="1" loop="0" name="Hipotecaria" pingpong="0" repeatcount="1" repeatto="0" sid="833035238920188" speed="5">
+                    <animation framecount="1" loop="0" name="Hipotecaria11" pingpong="0" repeatcount="1" repeatto="0" sid="833035238920188" speed="5">
                         <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-22.png">
                             <collision-poly>
                                 <point x="0.0186335" y="0.0252101" />
@@ -225,7 +226,7 @@
                             </collision-poly>
                         </frame>
                     </animation>
-                    <animation framecount="1" loop="0" name="Condiciones" pingpong="0" repeatcount="1" repeatto="0" sid="584989703871876" speed="5">
+                    <animation framecount="1" loop="0" name="Condiciones12" pingpong="0" repeatcount="1" repeatto="0" sid="584989703871876" speed="5">
                         <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-24.png">
                             <collision-poly>
                                 <point x="0.0186335" y="0.0252101" />
@@ -239,7 +240,7 @@
                             </collision-poly>
                         </frame>
                     </animation>
-                    <animation framecount="1" loop="0" name="Caracter" pingpong="0" repeatcount="1" repeatto="0" sid="777628668866125" speed="5">
+                    <animation framecount="1" loop="0" name="Caracter13" pingpong="0" repeatcount="1" repeatto="0" sid="777628668866125" speed="5">
                         <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-25.png">
                             <collision-poly>
                                 <point x="0.0186335" y="0.0252101" />
@@ -253,7 +254,7 @@
                             </collision-poly>
                         </frame>
                     </animation>
-                    <animation framecount="1" loop="0" name="Capital" pingpong="0" repeatcount="1" repeatto="0" sid="288773345388325" speed="5">
+                    <animation framecount="1" loop="0" name="Capital14" pingpong="0" repeatcount="1" repeatto="0" sid="288773345388325" speed="5">
                         <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-27.png">
                             <collision-poly>
                                 <point x="0.0186335" y="0.0252101" />
@@ -267,8 +268,218 @@
                             </collision-poly>
                         </frame>
                     </animation>
-                    <animation framecount="1" loop="0" name="Historial" pingpong="0" repeatcount="1" repeatto="0" sid="528076070417583" speed="5">
+                    <animation framecount="1" loop="0" name="Historial15" pingpong="0" repeatcount="1" repeatto="0" sid="528076070417583" speed="5">
                         <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-29.png">
+                            <collision-poly>
+                                <point x="0.0186335" y="0.0252101" />
+                                <point x="0.496894" y="0" />
+                                <point x="0.981366" y="0.0252101" />
+                                <point x="1" y="0.495798" />
+                                <point x="0.981366" y="0.97479" />
+                                <point x="0.496894" y="1" />
+                                <point x="0.0186335" y="0.97479" />
+                                <point x="0" y="0.495798" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="TAcreedor01" pingpong="0" repeatcount="1" repeatto="0" sid="828546251796157" speed="5">
+                        <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas_04.png">
+                            <collision-poly>
+                                <point x="0.0186335" y="0.0252101" />
+                                <point x="0.496894" y="0" />
+                                <point x="0.981366" y="0.0252101" />
+                                <point x="1" y="0.495798" />
+                                <point x="0.981366" y="0.97479" />
+                                <point x="0.496894" y="1" />
+                                <point x="0.0186335" y="0.97479" />
+                                <point x="0" y="0.495798" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="TDeudor02" pingpong="0" repeatcount="1" repeatto="0" sid="652861122065129" speed="5">
+                        <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-02.png">
+                            <collision-poly>
+                                <point x="0.0186335" y="0.0252101" />
+                                <point x="0.496894" y="0" />
+                                <point x="0.981366" y="0.0252101" />
+                                <point x="1" y="0.495798" />
+                                <point x="0.981366" y="0.97479" />
+                                <point x="0.496894" y="1" />
+                                <point x="0.0186335" y="0.97479" />
+                                <point x="0" y="0.495798" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="TContrato03" pingpong="0" repeatcount="1" repeatto="0" sid="522709079405947" speed="5">
+                        <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-06.png">
+                            <collision-poly>
+                                <point x="0.0186335" y="0.0252101" />
+                                <point x="0.496894" y="0" />
+                                <point x="0.981366" y="0.0252101" />
+                                <point x="1" y="0.495798" />
+                                <point x="0.981366" y="0.97479" />
+                                <point x="0.496894" y="1" />
+                                <point x="0.0186335" y="0.97479" />
+                                <point x="0" y="0.495798" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="TCuota04" pingpong="0" repeatcount="1" repeatto="0" sid="789465280108324" speed="5">
+                        <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-08.png">
+                            <collision-poly>
+                                <point x="0.0186335" y="0.0252101" />
+                                <point x="0.496894" y="0" />
+                                <point x="0.981366" y="0.0252101" />
+                                <point x="1" y="0.495798" />
+                                <point x="0.981366" y="0.97479" />
+                                <point x="0.496894" y="1" />
+                                <point x="0.0186335" y="0.97479" />
+                                <point x="0" y="0.495798" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="TInteres05" pingpong="0" repeatcount="1" repeatto="0" sid="766328416465129" speed="5">
+                        <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-12.png">
+                            <collision-poly>
+                                <point x="0.0186335" y="0.0252101" />
+                                <point x="0.496894" y="0" />
+                                <point x="0.981366" y="0.0252101" />
+                                <point x="1" y="0.495798" />
+                                <point x="0.981366" y="0.97479" />
+                                <point x="0.496894" y="1" />
+                                <point x="0.0186335" y="0.97479" />
+                                <point x="0" y="0.495798" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="TCapacidad06" pingpong="0" repeatcount="1" repeatto="0" sid="355336361801852" speed="5">
+                        <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-13.png">
+                            <collision-poly>
+                                <point x="0.0186335" y="0.0252101" />
+                                <point x="0.496894" y="0" />
+                                <point x="0.981366" y="0.0252101" />
+                                <point x="1" y="0.495798" />
+                                <point x="0.981366" y="0.97479" />
+                                <point x="0.496894" y="1" />
+                                <point x="0.0186335" y="0.97479" />
+                                <point x="0" y="0.495798" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="TColateral07" pingpong="0" repeatcount="1" repeatto="0" sid="371201668654809" speed="5">
+                        <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-15.png">
+                            <collision-poly>
+                                <point x="0.0186335" y="0.0252101" />
+                                <point x="0.496894" y="0" />
+                                <point x="0.981366" y="0.0252101" />
+                                <point x="1" y="0.495798" />
+                                <point x="0.981366" y="0.97479" />
+                                <point x="0.496894" y="1" />
+                                <point x="0.0186335" y="0.97479" />
+                                <point x="0" y="0.495798" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="TPlazo08" pingpong="0" repeatcount="1" repeatto="0" sid="720548000673509" speed="5">
+                        <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-10.png">
+                            <collision-poly>
+                                <point x="0.0186335" y="0.0252101" />
+                                <point x="0.496894" y="0" />
+                                <point x="0.981366" y="0.0252101" />
+                                <point x="1" y="0.495798" />
+                                <point x="0.981366" y="0.97479" />
+                                <point x="0.496894" y="1" />
+                                <point x="0.0186335" y="0.97479" />
+                                <point x="0" y="0.495798" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="TFiduciaria09" pingpong="0" repeatcount="1" repeatto="0" sid="528595307493555" speed="5">
+                        <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-17.png">
+                            <collision-poly>
+                                <point x="0.0186335" y="0.0252101" />
+                                <point x="0.496894" y="0" />
+                                <point x="0.981366" y="0.0252101" />
+                                <point x="1" y="0.495798" />
+                                <point x="0.981366" y="0.97479" />
+                                <point x="0.496894" y="1" />
+                                <point x="0.0186335" y="0.97479" />
+                                <point x="0" y="0.495798" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="TPrendaria10" pingpong="0" repeatcount="1" repeatto="0" sid="520549968544981" speed="5">
+                        <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-19.png">
+                            <collision-poly>
+                                <point x="0.0186335" y="0.0252101" />
+                                <point x="0.496894" y="0" />
+                                <point x="0.981366" y="0.0252101" />
+                                <point x="1" y="0.495798" />
+                                <point x="0.981366" y="0.97479" />
+                                <point x="0.496894" y="1" />
+                                <point x="0.0186335" y="0.97479" />
+                                <point x="0" y="0.495798" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="THipotecaria11" pingpong="0" repeatcount="1" repeatto="0" sid="741617697872907" speed="5">
+                        <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-21.png">
+                            <collision-poly>
+                                <point x="0.0186335" y="0.0252101" />
+                                <point x="0.496894" y="0" />
+                                <point x="0.981366" y="0.0252101" />
+                                <point x="1" y="0.495798" />
+                                <point x="0.981366" y="0.97479" />
+                                <point x="0.496894" y="1" />
+                                <point x="0.0186335" y="0.97479" />
+                                <point x="0" y="0.495798" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="TCondiciones12" pingpong="0" repeatcount="1" repeatto="0" sid="331672941488587" speed="5">
+                        <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-23.png">
+                            <collision-poly>
+                                <point x="0.0186335" y="0.0252101" />
+                                <point x="0.496894" y="0" />
+                                <point x="0.981366" y="0.0252101" />
+                                <point x="1" y="0.495798" />
+                                <point x="0.981366" y="0.97479" />
+                                <point x="0.496894" y="1" />
+                                <point x="0.0186335" y="0.97479" />
+                                <point x="0" y="0.495798" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="TCaracter13" pingpong="0" repeatcount="1" repeatto="0" sid="505089875435748" speed="5">
+                        <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-26.png">
+                            <collision-poly>
+                                <point x="0.0186335" y="0.0252101" />
+                                <point x="0.496894" y="0" />
+                                <point x="0.981366" y="0.0252101" />
+                                <point x="1" y="0.495798" />
+                                <point x="0.981366" y="0.97479" />
+                                <point x="0.496894" y="1" />
+                                <point x="0.0186335" y="0.97479" />
+                                <point x="0" y="0.495798" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="TCapital14" pingpong="0" repeatcount="1" repeatto="0" sid="275762792336717" speed="5">
+                        <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-28.png">
+                            <collision-poly>
+                                <point x="0.0186335" y="0.0252101" />
+                                <point x="0.496894" y="0" />
+                                <point x="0.981366" y="0.0252101" />
+                                <point x="1" y="0.495798" />
+                                <point x="0.981366" y="0.97479" />
+                                <point x="0.496894" y="1" />
+                                <point x="0.0186335" y="0.97479" />
+                                <point x="0" y="0.495798" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="THistorial15" pingpong="0" repeatcount="1" repeatto="0" sid="290902293141652" speed="5">
+                        <frame duration="1" hotspotX="0.503106" hotspotY="0.504202" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\tarjetitas\interfaz_tarjetas-30.png">
                             <collision-poly>
                                 <point x="0.0186335" y="0.0252101" />
                                 <point x="0.496894" y="0" />
@@ -423,6 +634,11 @@
                 <plugin id="Arr" />
             </object-type>
         </object-folder>
+        <object-folder name="Sonidos">
+            <object-type name="Audio" sid="715724892516819">
+                <plugin id="Audio" />
+            </object-type>
+        </object-folder>
     </object-folder>
     <families>
         <family name="resumen" plugin-id="Text" sid="148436893552791">
@@ -451,8 +667,28 @@
         <global-instance type="Mouse" uid="1" />
         <global-instance type="Browser" uid="2" />
         <global-instance type="Function" uid="3" />
+        <global-instance type="Audio" uid="34">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
     </global-instances>
-    <sounds-folder />
+    <sounds-folder>
+        <file name="bambu_1.ogg" />
+        <file name="correcto.ogg" />
+        <file name="error.ogg" />
+        <file name="ganador.ogg" />
+        <file name="incorrecta.ogg" />
+    </sounds-folder>
     <music-folder />
     <files-folder>
         <file-folder name="Icons">
