@@ -12,6 +12,38 @@
                         <condition id="-2" name="On start of layout" sid="642082921970839" type="System" />
                     </conditions>
                     <actions>
+                        <action id="-9" name="Set value" sid="852956977425740" type="System">
+                            <param id="0" name="Variable">cartasCliqueadas</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="625657724930019" type="System">
+                            <param id="0" name="Variable">parejasLogradas</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="272275156863722" type="System">
+                            <param id="0" name="Variable">cronometro</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="493806197606591" type="System">
+                            <param id="0" name="Variable">intentos</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="497421950577850" type="System">
+                            <param id="0" name="Variable">primeraCliqueada</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="821567353369717" type="System">
+                            <param id="0" name="Variable">segundaCliqueada</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="857405980942036" type="System">
+                            <param id="0" name="Variable">tarjeta1</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="825513009276492" type="System">
+                            <param id="0" name="Variable">tarjeta2</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
                         <action id="0" name="Call function" sid="828465743514410" type="Function">
                             <param id="0" name="Name">&quot;CargarValores&quot;</param>
                             <param id="1" name="Parameter {n}"></param>
@@ -21,13 +53,6 @@
                         </action>
                         <action id="0" name="Call function" sid="742853623151578" type="Function">
                             <param id="0" name="Name">&quot;CargarImagenes&quot;</param>
-                            <param id="1" name="Parameter {n}"></param>
-                        </action>
-                        <action id="-16" name="Wait" sid="583864270530011" type="System">
-                            <param id="0" name="Seconds">0.5</param>
-                        </action>
-                        <action id="0" name="Call function" sid="498089687084151" type="Function">
-                            <param id="0" name="Name">&quot;CargarTarjetas&quot;</param>
                             <param id="1" name="Parameter {n}"></param>
                         </action>
                     </actions>
@@ -43,6 +68,12 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="1" name="Set size" sid="336466084888777" type="imagenesPosibles">
+                            <param id="0" name="Width">15</param>
+                            <param id="1" name="Height">1</param>
+                            <param id="2" name="Depth">1</param>
+                        </action>
+                        <action id="0" name="Clear" sid="317189903787979" type="imagenesPosibles" />
                         <action id="2" name="Set at X" sid="250451652090820" type="imagenesPosibles">
                             <param id="0" name="X">0</param>
                             <param id="1" name="Value">&quot;Acreedor01&quot;</param>
@@ -103,10 +134,16 @@
                             <param id="0" name="X">14</param>
                             <param id="1" name="Value">&quot;Historial15&quot;</param>
                         </action>
-                        <action id="14" name="Log" sid="732506434904341" type="Browser">
+                        <action disabled="1" id="14" name="Log" sid="732506434904341" type="Browser">
                             <param id="0" name="Type">0</param>
-                            <param id="1" name="Message">&quot;Tamaño del array: &quot;&amp;imagenesPosibles.Width</param>
+                            <param id="1" name="Message">&quot;Tamaño del array ImagenesPosibles: &quot;&amp;imagenesPosibles.Width</param>
                         </action>
+                        <action id="1" name="Set size" sid="199169044850431" type="textosPosibles">
+                            <param id="0" name="Width">15</param>
+                            <param id="1" name="Height">1</param>
+                            <param id="2" name="Depth">1</param>
+                        </action>
+                        <action id="0" name="Clear" sid="924290214337029" type="textosPosibles" />
                         <action id="2" name="Set at X" sid="456599926042995" type="textosPosibles">
                             <param id="0" name="X">0</param>
                             <param id="1" name="Value">&quot;TAcreedor01&quot;</param>
@@ -166,6 +203,14 @@
                         <action id="2" name="Set at X" sid="151157913020429" type="textosPosibles">
                             <param id="0" name="X">14</param>
                             <param id="1" name="Value">&quot;THistorial15&quot;</param>
+                        </action>
+                        <action disabled="1" id="14" name="Log" sid="955790834699696" type="Browser">
+                            <param id="0" name="Type">0</param>
+                            <param id="1" name="Message">&quot;Tamaño del array textosPosibles: &quot;&amp;textosPosibles.Width</param>
+                        </action>
+                        <action disabled="1" id="14" name="Log" sid="510916832709184" type="Browser">
+                            <param id="0" name="Type">0</param>
+                            <param id="1" name="Message">&quot;Valor de campo &quot; &amp; textosPosibles.At(2)</param>
                         </action>
                     </actions>
                 </event-block>
@@ -231,7 +276,20 @@
                             <param id="0" name="Name">&quot;CargarImagenes&quot;</param>
                         </condition>
                     </conditions>
-                    <actions />
+                    <actions>
+                        <action id="1" name="Set size" sid="969267027958365" type="tempImagenes">
+                            <param id="0" name="Width">8</param>
+                            <param id="1" name="Height">1</param>
+                            <param id="2" name="Depth">1</param>
+                        </action>
+                        <action id="0" name="Clear" sid="304305652229651" type="tempImagenes" />
+                        <action id="1" name="Set size" sid="546947342654240" type="tempTextos">
+                            <param id="0" name="Width">8</param>
+                            <param id="1" name="Height">1</param>
+                            <param id="2" name="Depth">1</param>
+                        </action>
+                        <action id="0" name="Clear" sid="713141853739044" type="tempTextos" />
+                    </actions>
                     <sub-events>
                         <event-block sid="523127228706487">
                             <conditions>
@@ -262,11 +320,11 @@
                                     <param id="0" name="Index">aux</param>
                                     <param id="1" name="Axis">0</param>
                                 </action>
-                                <action id="14" name="Log" sid="210976365999106" type="Browser">
+                                <action disabled="1" id="14" name="Log" sid="210976365999106" type="Browser">
                                     <param id="0" name="Type">0</param>
                                     <param id="1" name="Message">&quot;Imagen&quot;&amp;index&amp;&quot;: &quot;&amp;tempImagenes.At(index)</param>
                                 </action>
-                                <action id="14" name="Log" sid="725290297307007" type="Browser">
+                                <action disabled="1" id="14" name="Log" sid="725290297307007" type="Browser">
                                     <param id="0" name="Type">0</param>
                                     <param id="1" name="Message">&quot;Texto&quot;&amp;index2&amp;&quot;: &quot;&amp;tempTextos.At(index2)</param>
                                 </action>
@@ -277,6 +335,18 @@
                                 <action id="-9" name="Set value" sid="469696992277974" type="System">
                                     <param id="0" name="Variable">index2</param>
                                     <param id="1" name="Value">index2+1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="189129167438229">
+                            <conditions>
+                                <condition id="6" inverted="1" name="Is empty" sid="345221820930966" type="tempImagenes" />
+                                <condition id="6" inverted="1" name="Is empty" sid="374760823730453" type="tempTextos" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Call function" sid="445565652243484" type="Function">
+                                    <param id="0" name="Name">&quot;CargarTarjetas&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
                                 </action>
                             </actions>
                         </event-block>
@@ -295,7 +365,16 @@
                             <param id="0" name="Name">&quot;CargarTarjetas&quot;</param>
                         </condition>
                     </conditions>
-                    <actions />
+                    <actions>
+                        <action id="14" name="Log" sid="331223033370229" type="Browser">
+                            <param id="0" name="Type">0</param>
+                            <param id="1" name="Message">&quot;Cargando las tarjetas&quot;</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="620866732074212" type="Tarjeta">
+                            <param id="0" name="Instance variable">animacion</param>
+                            <param id="1" name="Value">&quot;&quot;</param>
+                        </action>
+                    </actions>
                     <sub-events>
                         <event-block sid="314499016758499">
                             <conditions>
@@ -303,12 +382,7 @@
                                     <param id="0" name="Object">Tarjeta</param>
                                 </condition>
                             </conditions>
-                            <actions>
-                                <action id="-10" name="Set value" sid="620866732074212" type="Tarjeta">
-                                    <param id="0" name="Instance variable">animacion</param>
-                                    <param id="1" name="Value">&quot;&quot;</param>
-                                </action>
-                            </actions>
+                            <actions />
                             <sub-events>
                                 <event-block sid="103669577506900">
                                     <conditions>
