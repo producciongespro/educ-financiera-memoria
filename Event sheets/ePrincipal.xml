@@ -335,6 +335,10 @@
                                             <param id="0" name="Index">aux</param>
                                             <param id="1" name="Axis">0</param>
                                         </action>
+                                        <action disabled="1" id="14" name="Log" sid="182560242503012" type="Browser">
+                                            <param id="0" name="Type">0</param>
+                                            <param id="1" name="Message">&quot;Imagen agregada: &quot;&amp;tempImagenes.At(index)</param>
+                                        </action>
                                     </actions>
                                 </event-block>
                                 <event-block sid="784417263486601">
@@ -357,6 +361,10 @@
                                         <action id="9" name="Delete" sid="174891316711389" type="tempTextos">
                                             <param id="0" name="Index">aux</param>
                                             <param id="1" name="Axis">0</param>
+                                        </action>
+                                        <action disabled="1" id="14" name="Log" sid="911764871499755" type="Browser">
+                                            <param id="0" name="Type">0</param>
+                                            <param id="1" name="Message">&quot;Texto agregado: &quot;&amp;tempTextos.At(index)</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -739,80 +747,41 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="244338931940418" title="Reiniciar">
-            <sub-events>
-                <event-block sid="556182581962003">
-                    <conditions>
-                        <condition id="0" name="On function" sid="943732193715417" type="Function">
-                            <param id="0" name="Name">&quot;Reiniciar&quot;</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="14" name="Log" sid="726697526704429" type="Browser">
-                            <param id="0" name="Type">0</param>
-                            <param id="1" name="Message">&quot;Reiniciando&quot;</param>
-                        </action>
-                        <action id="0" name="Clear" sid="995016235356542" type="tempImagenes" />
-                        <action id="0" name="Clear" sid="231425877701907" type="imagenesPosibles" />
-                        <action id="0" name="Clear" sid="256162773232637" type="tempTextos" />
-                        <action id="0" name="Clear" sid="441479510677863" type="textosPosibles" />
-                        <action id="-9" name="Set value" sid="726022712065360" type="System">
-                            <param id="0" name="Variable">cartasCliqueadas</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="821957133170939" type="System">
-                            <param id="0" name="Variable">control</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="918847408332856" type="System">
-                            <param id="0" name="Variable">cronometro</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="711664954386023" type="System">
-                            <param id="0" name="Variable">intentos</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="370832151766207" type="System">
-                            <param id="0" name="Variable">parejasLogradas</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="347323409239014" type="System">
-                            <param id="0" name="Variable">primeraCliqueada</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="482166824869300" type="System">
-                            <param id="0" name="Variable">segundaCliqueada</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="880989912419996" type="System">
-                            <param id="0" name="Variable">tarjeta1</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="195054754814427" type="System">
-                            <param id="0" name="Variable">tarjeta2</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                        <action id="0" name="Call function" sid="211387592903079" type="Function">
-                            <param id="0" name="Name">&quot;CargarValores&quot;</param>
-                            <param id="1" name="Parameter {n}"></param>
-                        </action>
-                        <action id="-16" name="Wait" sid="651364876408912" type="System">
-                            <param id="0" name="Seconds">0.5</param>
-                        </action>
-                        <action id="0" name="Call function" sid="196103740666505" type="Function">
-                            <param id="0" name="Name">&quot;CargarImagenes&quot;</param>
-                            <param id="1" name="Parameter {n}"></param>
-                        </action>
-                        <action id="-16" name="Wait" sid="812043797393482" type="System">
-                            <param id="0" name="Seconds">0.5</param>
-                        </action>
-                        <action id="0" name="Call function" sid="218676663255319" type="Function">
-                            <param id="0" name="Name">&quot;CargarTarjetas&quot;</param>
-                            <param id="1" name="Parameter {n}"></param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-group>
+        <event-group description="" sid="244338931940418" title="Reiniciar" />
+        <event-block sid="556182581962003">
+            <conditions>
+                <condition id="0" name="On function" sid="943732193715417" type="Function">
+                    <param id="0" name="Name">&quot;Reiniciar&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="14" name="Log" sid="726697526704429" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;Reiniciando&quot;</param>
+                </action>
+                <action id="0" name="Clear" sid="995016235356542" type="tempImagenes" />
+                <action id="0" name="Clear" sid="231425877701907" type="imagenesPosibles" />
+                <action id="0" name="Clear" sid="256162773232637" type="tempTextos" />
+                <action id="0" name="Clear" sid="441479510677863" type="textosPosibles" />
+                <action id="0" name="Call function" sid="211387592903079" type="Function">
+                    <param id="0" name="Name">&quot;CargarValores&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="-16" name="Wait" sid="651364876408912" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="0" name="Call function" sid="196103740666505" type="Function">
+                    <param id="0" name="Name">&quot;CargarImagenes&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="-16" name="Wait" sid="812043797393482" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="0" name="Call function" sid="218676663255319" type="Function">
+                    <param id="0" name="Name">&quot;CargarTarjetas&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
