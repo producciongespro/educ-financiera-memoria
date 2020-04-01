@@ -212,6 +212,72 @@
                             <param id="0" name="Type">0</param>
                             <param id="1" name="Message">&quot;Valor de campo &quot; &amp; textosPosibles.At(2)</param>
                         </action>
+                        <action id="1" name="Set size" sid="729146087264870" type="paraLlenar">
+                            <param id="0" name="Width">15</param>
+                            <param id="1" name="Height">1</param>
+                            <param id="2" name="Depth">1</param>
+                        </action>
+                        <action id="0" name="Clear" sid="546777497316821" type="paraLlenar" />
+                        <action id="2" name="Set at X" sid="177752424824363" type="paraLlenar">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="985826368780610" type="paraLlenar">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="752539796986329" type="paraLlenar">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="939276957452173" type="paraLlenar">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="132449468772653" type="paraLlenar">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="239266831779759" type="paraLlenar">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="208533633079224" type="paraLlenar">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="456116761491281" type="paraLlenar">
+                            <param id="0" name="X">7</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="294540190644698" type="paraLlenar">
+                            <param id="0" name="X">8</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="630800258359642" type="paraLlenar">
+                            <param id="0" name="X">9</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="993414485600004" type="paraLlenar">
+                            <param id="0" name="X">10</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="402316837139216" type="paraLlenar">
+                            <param id="0" name="X">11</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="522175989759288" type="paraLlenar">
+                            <param id="0" name="X">12</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="475919273597348" type="paraLlenar">
+                            <param id="0" name="X">13</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="135793406902913" type="paraLlenar">
+                            <param id="0" name="X">14</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
@@ -356,6 +422,8 @@
         </event-group>
         <event-group description="" sid="987959051992454" title="Cargar imagenes del juego">
             <sub-events>
+                <variable constant="0" name="valor" sid="293750060127726" static="0" type="number">0</variable>
+                <variable constant="0" name="temp" sid="177653994493622" static="0" type="number">0</variable>
                 <variable constant="0" name="index" sid="334086550493718" static="0" type="number">1</variable>
                 <variable constant="0" name="aux" sid="744416316278426" static="0" type="number">0</variable>
                 <variable constant="0" name="animacion" sid="448137513470993" static="0" type="text"></variable>
@@ -366,7 +434,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="14" name="Log" sid="331223033370229" type="Browser">
+                        <action disabled="1" id="14" name="Log" sid="331223033370229" type="Browser">
                             <param id="0" name="Type">0</param>
                             <param id="1" name="Message">&quot;Cargando las tarjetas&quot;</param>
                         </action>
@@ -382,14 +450,31 @@
                                     <param id="0" name="Object">Tarjeta</param>
                                 </condition>
                             </conditions>
-                            <actions />
+                            <actions>
+                                <action id="-9" name="Set value" sid="762440693786130" type="System">
+                                    <param id="0" name="Variable">temp</param>
+                                    <param id="1" name="Value">random(0,paraLlenar.Width)</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="176361055509142" type="System">
+                                    <param id="0" name="Variable">valor</param>
+                                    <param id="1" name="Value">paraLlenar.At(int(temp))</param>
+                                </action>
+                                <action id="9" name="Delete" sid="416466956987088" type="paraLlenar">
+                                    <param id="0" name="Index">temp</param>
+                                    <param id="1" name="Axis">0</param>
+                                </action>
+                                <action disabled="1" id="14" name="Log" sid="697054348497306" type="Browser">
+                                    <param id="0" name="Type">0</param>
+                                    <param id="1" name="Message">&quot;Numero: &quot;&amp;temp</param>
+                                </action>
+                            </actions>
                             <sub-events>
                                 <event-block sid="103669577506900">
                                     <conditions>
                                         <condition id="-8" name="Compare two values" sid="978960054365518" type="System">
-                                            <param id="0" name="First value">index%2</param>
+                                            <param id="0" name="First value">valor</param>
                                             <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Second value">0</param>
+                                            <param id="2" name="Second value">1</param>
                                         </condition>
                                     </conditions>
                                     <actions>
@@ -625,7 +710,7 @@
                                                     <param id="1" name="Message">&quot;Son diferentes&quot;</param>
                                                 </action>
                                                 <action id="-16" name="Wait" sid="712231959857844" type="System">
-                                                    <param id="0" name="Seconds">1.0</param>
+                                                    <param id="0" name="Seconds">2.0</param>
                                                 </action>
                                             </actions>
                                             <sub-events>
