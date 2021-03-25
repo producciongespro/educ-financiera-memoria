@@ -8,7 +8,7 @@
     <author-website>http://</author-website>
     <app-id>com.mycompany.myapp</app-id>
     <unique-id>gsjan7oegtsv</unique-id>
-    <saved-with-version>27500</saved-with-version>
+    <saved-with-version>27700</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Arr" version="1">Array</plugin>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
@@ -500,6 +500,9 @@
                 <plugin id="Text" />
             </object-type>
             <object-type name="txtTiempo" sid="415730193693470">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Text" sid="629782618397706">
                 <plugin id="Text" />
             </object-type>
         </object-folder>
