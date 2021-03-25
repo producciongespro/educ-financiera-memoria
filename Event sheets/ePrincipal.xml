@@ -213,7 +213,7 @@
                             <param id="1" name="Message">&quot;Valor de campo &quot; &amp; textosPosibles.At(2)</param>
                         </action>
                         <action id="1" name="Set size" sid="729146087264870" type="paraLlenar">
-                            <param id="0" name="Width">15</param>
+                            <param id="0" name="Width">11</param>
                             <param id="1" name="Height">1</param>
                             <param id="2" name="Depth">1</param>
                         </action>
@@ -262,19 +262,19 @@
                             <param id="0" name="X">10</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="402316837139216" type="paraLlenar">
+                        <action disabled="1" id="2" name="Set at X" sid="402316837139216" type="paraLlenar">
                             <param id="0" name="X">11</param>
                             <param id="1" name="Value">2</param>
                         </action>
-                        <action id="2" name="Set at X" sid="522175989759288" type="paraLlenar">
+                        <action disabled="1" id="2" name="Set at X" sid="522175989759288" type="paraLlenar">
                             <param id="0" name="X">12</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set at X" sid="475919273597348" type="paraLlenar">
+                        <action disabled="1" id="2" name="Set at X" sid="475919273597348" type="paraLlenar">
                             <param id="0" name="X">13</param>
                             <param id="1" name="Value">2</param>
                         </action>
-                        <action id="2" name="Set at X" sid="135793406902913" type="paraLlenar">
+                        <action disabled="1" id="2" name="Set at X" sid="135793406902913" type="paraLlenar">
                             <param id="0" name="X">14</param>
                             <param id="1" name="Value">1</param>
                         </action>
@@ -301,7 +301,7 @@
                         <condition id="-14" name="Compare variable" sid="991853749896992" type="System">
                             <param id="0" name="Variable">parejasLogradas</param>
                             <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">8</param>
+                            <param id="2" name="Value">6</param>
                         </condition>
                     </conditions>
                     <actions />
@@ -344,13 +344,13 @@
                     </conditions>
                     <actions>
                         <action id="1" name="Set size" sid="969267027958365" type="tempImagenes">
-                            <param id="0" name="Width">8</param>
+                            <param id="0" name="Width">6</param>
                             <param id="1" name="Height">1</param>
                             <param id="2" name="Depth">1</param>
                         </action>
                         <action id="0" name="Clear" sid="304305652229651" type="tempImagenes" />
                         <action id="1" name="Set size" sid="546947342654240" type="tempTextos">
-                            <param id="0" name="Width">8</param>
+                            <param id="0" name="Width">6</param>
                             <param id="1" name="Height">1</param>
                             <param id="2" name="Depth">1</param>
                         </action>
@@ -830,7 +830,7 @@
                                         <condition id="-14" name="Compare variable" sid="834700496518952" type="System">
                                             <param id="0" name="Variable">parejasLogradas</param>
                                             <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">8</param>
+                                            <param id="2" name="Value">6</param>
                                         </condition>
                                     </conditions>
                                     <actions>
