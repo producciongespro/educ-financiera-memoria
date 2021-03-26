@@ -571,7 +571,7 @@
                                 <action id="0" name="Play" sid="623950677872216" type="Audio">
                                     <param id="0" name="Audio file">bambu_1</param>
                                     <param id="2" name="Loop">0</param>
-                                    <param id="3" name="Volume">-60</param>
+                                    <param id="3" name="Volume">-30</param>
                                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                                 </action>
                                 <action id="4" name="Set animation" sid="828615345021507" type="Tarjeta">
