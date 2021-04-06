@@ -23,5 +23,29 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="191766884097800">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="132330574777146" type="Mouse">
+                    <param id="0" name="Object">btnInicio</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="896274780093446" type="btnInicio">
+                    <param id="0" name="Opacity">50</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="521628661464096">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="679659615352434" type="Mouse">
+                    <param id="0" name="Object">btnInicio</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="496602116519811" type="btnInicio">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

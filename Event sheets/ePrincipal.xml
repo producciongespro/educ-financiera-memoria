@@ -296,6 +296,54 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="143603345525671">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="736449433422615" type="Mouse">
+                            <param id="0" name="Object">btnAcercaDe</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="229439103487938" type="btnAcercaDe">
+                            <param id="0" name="Opacity">50</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="290650746906325">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="522498283381040" type="Mouse">
+                            <param id="0" name="Object">btnAcercaDe</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="717762387666988" type="btnAcercaDe">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="946913891495412">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="254768978363922" type="Mouse">
+                            <param id="0" name="Object">btnCerrar</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="373330680296341" type="btnCerrar">
+                            <param id="0" name="Opacity">50</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="134473235631672">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="272555467115841" type="Mouse">
+                            <param id="0" name="Object">btnCerrar</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="775647719280548" type="btnCerrar">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="817505915155902">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="991853749896992" type="System">
