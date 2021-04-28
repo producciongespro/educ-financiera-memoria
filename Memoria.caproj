@@ -514,7 +514,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Inicio" pingpong="0" repeatcount="1" repeatto="0" sid="529890594537958" speed="5">
-                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\fondo.jpg" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\User\Downloads\interfaz_educacionfinanciera.jpg" />
                     </animation>
                     <animation framecount="1" loop="0" name="AcercaDe" pingpong="0" repeatcount="1" repeatto="0" sid="386009873980577" speed="5">
                         <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\fondoAcercaDe.jpg" />
@@ -572,7 +572,7 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="973581868168358" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Desktop\Logo-BAC-Credomatic-Fondo-Rojo-CMYK.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\wamp64\www\memoria\Animations\btnAcercaDe\Animation2\000.png" />
                     </animation>
                     <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="183639865357966" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\Botones\AcercaDe2.jpg" />
