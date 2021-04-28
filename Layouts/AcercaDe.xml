@@ -78,7 +78,7 @@
                         <text>Contenido auspiciado por: Bac Credomatic, Gerencia de Sostenibilidad, a cargo de la coordinación de Victor Oconitrillo.</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Berlin Sans FB,-24,400,0</font>
-                        <color>0,0,0</color>
+                        <color>90,90,90</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -89,7 +89,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>212</x>
-                        <y>249</y>
+                        <y>291</y>
                         <z>0</z>
                         <width>618</width>
                         <height>90</height>
@@ -105,7 +105,7 @@
                         <text>Contenidos avalado por la DDC: Ruth Aguilar Cabezas, bajo el CONVENIO MEP-BAC Credomatic.</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Berlin Sans FB,-24,400,0</font>
-                        <color>0,0,0</color>
+                        <color>90,90,90</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -116,7 +116,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>209</x>
-                        <y>352</y>
+                        <y>394</y>
                         <z>0</z>
                         <width>618</width>
                         <height>90</height>
@@ -132,7 +132,7 @@
                         <text>Dirección de Recursos Tecnológicos del Mep, Departamento de Gestión y Producción GESPRO.</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Berlin Sans FB,-24,400,0</font>
-                        <color>0,0,0</color>
+                        <color>90,90,90</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -143,7 +143,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>206</x>
-                        <y>430</y>
+                        <y>472</y>
                         <z>0</z>
                         <width>618</width>
                         <height>90</height>
@@ -159,7 +159,7 @@
                         <text>Desarrollo: Ana Araya Salazar, Luis Chacón Campos, Óscar Pérez Ramírez y Patricia Hernández Conejo.</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Berlin Sans FB,-24,400,0</font>
-                        <color>0,0,0</color>
+                        <color>90,90,90</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -170,7 +170,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>207</x>
-                        <y>513</y>
+                        <y>555</y>
                         <z>0</z>
                         <width>618</width>
                         <height>90</height>
@@ -186,7 +186,7 @@
                         <text>Diseño gráfico: Karla Guevara Murillo. </text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Berlin Sans FB,-24,400,0</font>
-                        <color>0,0,0</color>
+                        <color>90,90,90</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -197,7 +197,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>208</x>
-                        <y>597</y>
+                        <y>639</y>
                         <z>0</z>
                         <width>618</width>
                         <height>90</height>
