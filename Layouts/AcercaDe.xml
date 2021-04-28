@@ -75,7 +75,7 @@
                 </instance>
                 <instance type="Text" uid="36">
                     <properties>
-                        <text>Contenido auspiciado por: Bac Credomatic a cargo de la coordinación de Victor Oconitrillo.</text>
+                        <text>Contenido auspiciado por: Bac Credomatic, Gerencia de Sostenibilidad,  a cargo de la coordinación de Victor Oconitrillo.</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-24,400,0</font>
                         <color>0,0,0</color>
@@ -102,7 +102,7 @@
                 </instance>
                 <instance type="Text" uid="37">
                     <properties>
-                        <text>Contenidos avalador por la DDC: Ruth Aguilar Cabezas, bajo el CONVENIO MEP-BAC.</text>
+                        <text>Contenidos avalados por la DDC: Ruth Aguilar Cabezas, bajo el CONVENIO MEP-BAC Credomatic.</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-24,400,0</font>
                         <color>0,0,0</color>
@@ -129,7 +129,7 @@
                 </instance>
                 <instance type="Text" uid="38">
                     <properties>
-                        <text>Dirección de Recursos Tecnológicos del Mep, Departamento de Gestión y Producción.</text>
+                        <text>Dirección de Recursos Tecnológicos del Mep, Departamento de Gestión y Producción GESPRO.</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-24,400,0</font>
                         <color>0,0,0</color>

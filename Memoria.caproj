@@ -505,6 +505,9 @@
             <object-type name="Text" sid="629782618397706">
                 <plugin id="Text" />
             </object-type>
+            <object-type name="Text2" sid="192664741886930">
+                <plugin id="Text" />
+            </object-type>
         </object-folder>
         <object-folder name="GUI">
             <object-type name="fondo" sid="783049390176802">
@@ -569,7 +572,7 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="973581868168358" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\Botones\AcercaDe1.jpg" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Desktop\Logo-BAC-Credomatic-Fondo-Rojo-CMYK.png" />
                     </animation>
                     <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="183639865357966" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\2020\ImágenesMemoriaFinanciera\Botones\AcercaDe2.jpg" />

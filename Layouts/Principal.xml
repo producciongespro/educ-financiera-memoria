@@ -39,8 +39,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>0</x>
-                        <y>0</y>
+                        <x>-7</x>
+                        <y>-1</y>
                         <z>0</z>
                         <width>1024</width>
                         <height>768</height>
@@ -67,8 +67,8 @@
                         <x>926.5</x>
                         <y>742.5</y>
                         <z>0</z>
-                        <width>193</width>
-                        <height>49</height>
+                        <width>608.845336914</width>
+                        <height>284.200012207</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -482,6 +482,33 @@
                         <depth>0</depth>
                         <hotspotX>0.505376339</hotspotX>
                         <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Text2" uid="24">
+                    <properties>
+                        <text>Palabra-Concepto</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Berlin Sans FB,-19,700,0</font>
+                        <color>153,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>750</x>
+                        <y>95</y>
+                        <z>0</z>
+                        <width>223</width>
+                        <height>47</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
