@@ -75,9 +75,9 @@
                 </instance>
                 <instance type="Text" uid="36">
                     <properties>
-                        <text>Contenido auspiciado por: Bac Credomatic a cargo de la coordinación de Victor Oconitrillo.</text>
+                        <text>Contenido auspiciado por: Bac Credomatic, Gerencia de Sostenibilidad, a cargo de la coordinación de Victor Oconitrillo.</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-24,400,0</font>
+                        <font>Berlin Sans FB,-24,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -88,8 +88,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>208</x>
-                        <y>268</y>
+                        <x>212</x>
+                        <y>249</y>
                         <z>0</z>
                         <width>618</width>
                         <height>90</height>
@@ -102,9 +102,9 @@
                 </instance>
                 <instance type="Text" uid="37">
                     <properties>
-                        <text>Contenidos avalador por la DDC: Ruth Aguilar Cabezas, bajo el CONVENIO MEP-BAC.</text>
+                        <text>Contenidos avalado por la DDC: Ruth Aguilar Cabezas, bajo el CONVENIO MEP-BAC Credomatic.</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-24,400,0</font>
+                        <font>Berlin Sans FB,-24,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -129,9 +129,9 @@
                 </instance>
                 <instance type="Text" uid="38">
                     <properties>
-                        <text>Dirección de Recursos Tecnológicos del Mep, Departamento de Gestión y Producción.</text>
+                        <text>Dirección de Recursos Tecnológicos del Mep, Departamento de Gestión y Producción GESPRO.</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-24,400,0</font>
+                        <font>Berlin Sans FB,-24,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -158,7 +158,7 @@
                     <properties>
                         <text>Desarrollo: Ana Araya Salazar, Luis Chacón Campos, Óscar Pérez Ramírez y Patricia Hernández Conejo.</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-24,400,0</font>
+                        <font>Berlin Sans FB,-24,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -185,7 +185,7 @@
                     <properties>
                         <text>Diseño gráfico: Karla Guevara Murillo. </text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-24,400,0</font>
+                        <font>Berlin Sans FB,-24,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
