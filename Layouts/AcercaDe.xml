@@ -75,7 +75,7 @@
                 </instance>
                 <instance type="Text" uid="36">
                     <properties>
-                        <text>Contenido auspiciado por: Bac Credomatic, Gerencia de Sostenibilidad, a cargo de la coordinación de Victor Oconitrillo.</text>
+                        <text>Contenido auspiciado por: BAC Credomatic, Gerencia de Sostenibilidad.</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Berlin Sans FB,-24,400,0</font>
                         <color>90,90,90</color>
@@ -102,7 +102,7 @@
                 </instance>
                 <instance type="Text" uid="37">
                     <properties>
-                        <text>Contenidos avalado por la DDC: Ruth Aguilar Cabezas, bajo el CONVENIO MEP-BAC Credomatic.</text>
+                        <text>Contenido avalado por la DDC: Ruth Aguilar Cabezas, bajo el CONVENIO MEP-BAC Credomatic.</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Berlin Sans FB,-24,400,0</font>
                         <color>90,90,90</color>
@@ -116,7 +116,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>209</x>
-                        <y>394</y>
+                        <y>383</y>
                         <z>0</z>
                         <width>618</width>
                         <height>90</height>
@@ -198,6 +198,33 @@
                     <world>
                         <x>208</x>
                         <y>639</y>
+                        <z>0</z>
+                        <width>618</width>
+                        <height>90</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Text" uid="24">
+                    <properties>
+                        <text>Contacto: gespro@mep.go.cr</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Berlin Sans FB,-24,400,0</font>
+                        <color>90,90,90</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>209</x>
+                        <y>673</y>
                         <z>0</z>
                         <width>618</width>
                         <height>90</height>
