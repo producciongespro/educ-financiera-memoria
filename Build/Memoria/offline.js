@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1619709855,
+	"version": 1620228442,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -13,6 +13,7 @@
 		"images/btnacercade-sheet0.png",
 		"images/ventanaresumen-sheet0.png",
 		"images/btncerrar-sheet0.png",
+		"images/fondotarj-sheet0.png",
 		"media/bambu_1.ogg",
 		"media/correcto.ogg",
 		"media/error.ogg",
