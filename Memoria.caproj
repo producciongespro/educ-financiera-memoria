@@ -613,6 +613,14 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="fondoTarj" sid="547916034650131">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="975726578649518" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Desktop\Fondo.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="Sistema">
             <object-type name="Touch" sid="292149576191688">
